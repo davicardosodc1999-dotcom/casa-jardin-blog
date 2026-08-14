@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Todos los artículos | Casa & Jardín
+    </title>
+
+    <meta
+        name="description"
+        content="Explora todos los artículos de Casa & Jardín sobre jardinería, plantas, decoración, organización y hogar."
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container header-inner">
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+            Casa <span>&</span> Jardín
+        </a>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="section">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            CASA & JARDÍN
+        </span>
+
+        <h1>
+            Todos nuestros artículos
+        </h1>
+
+        <p class="category-description">
+            Explora nuestras guías, consejos e ideas sobre
+            jardinería, plantas, hogar y espacios exteriores.
+        </p>
+
+
+        <div
+            class="articles-grid"
+            id="all-articles"
+        ></div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container footer-bottom">
+
+        <p>
+            © 2026 Casa & Jardín. Todos los derechos reservados.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/articles.js"></script>
+
+
+<script>
+
+const container =
+    document.querySelector("#all-articles");
+
+
+articles.forEach(article => {
+
+    container.innerHTML += `
+
+        <article class="article-card">
+
+            <div class="article-content">
+
+                <span class="article-category">
+                    ${article.category}
+                </span>
+
+                <h2>
+                    ${article.title}
+                </h2>
+
+                <p>
+                    ${article.description}
+                </p>
+
+                <a href="${article.url}">
+                    Leer artículo →
+                </a>
+
+            </div>
+
+        </article>
+
+    `;
+
+});
+
+</script>
+
+</body>
+
+</html>
