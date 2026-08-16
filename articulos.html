@@ -35,9 +35,34 @@
         <a
             href="index.html"
             class="logo"
+            aria-label="Casa y Jardín - Inicio"
         >
             Casa <span>&</span> Jardín
         </a>
+
+        <nav class="main-nav">
+
+            <a href="index.html">
+                Inicio
+            </a>
+
+            <a href="index.html#categorias">
+                Categorías
+            </a>
+
+            <a href="index.html#destacados">
+                Destacados
+            </a>
+
+            <a href="index.html#sobre">
+                Sobre nosotros
+            </a>
+
+            <a href="pages/contacto.html">
+                Contacto
+            </a>
+
+        </nav>
 
     </div>
 
@@ -92,17 +117,36 @@
 <script src="js/articles.js"></script>
 
 
+<script src="js/articles.js"></script>
+
 <script>
 
 const container =
     document.querySelector("#all-articles");
 
 
-articles.forEach(article => {
+articles.forEach((article, index) => {
+
+    const imageNumber =
+        String(index + 1).padStart(2, "0");
+
+    const imagePath =
+        `img/articles/article-${imageNumber}.webp`;
+
 
     container.innerHTML += `
 
         <article class="article-card">
+
+            <div class="article-image">
+
+                <img
+                    src="${imagePath}"
+                    alt="${article.title}"
+                    loading="lazy"
+                >
+
+            </div>
 
             <div class="article-content">
 
