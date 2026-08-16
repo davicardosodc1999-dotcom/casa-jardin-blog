@@ -620,3 +620,127 @@ input {
     }
 
 }
+/* ========================================================
+   PATCH MOBILE FINAL CASA JARDIN
+======================================================== */
+
+.section-heading > a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: calc(100% - 32px);
+        max-width: 100%;
+    }
+
+    .header-inner {
+        min-height: 68px;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 22px;
+        white-space: nowrap;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+        font-size: 24px;
+    }
+
+    .search-button {
+        margin-left: 0;
+    }
+
+    .main-nav {
+        top: 68px;
+        width: 100%;
+        padding: 15px 18px;
+        background: #fff;
+    }
+
+    .main-nav a {
+        width: 100%;
+        padding: 12px 0;
+        color: #252525;
+        text-decoration: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+    }
+
+    .section-heading > a {
+        display: inline-flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        padding: 12px 18px;
+        background: #222;
+        color: #fff !important;
+        border-radius: 4px;
+    }
+
+    .articles-grid,
+    .categories-grid,
+    .popular-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .article-card {
+        width: 100%;
+    }
+
+    .article-card .article-image {
+        height: auto;
+    }
+
+    .article-card .article-image img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: clamp(36px, 11vw, 46px);
+        line-height: 1.04;
+    }
+
+    .hero-image,
+    .hero-image img {
+        height: auto;
+        min-height: 0;
+    }
+
+    .hero-image img {
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        min-width: 0;
+    }
+}
+

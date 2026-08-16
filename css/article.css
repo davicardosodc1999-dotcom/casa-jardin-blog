@@ -463,3 +463,136 @@
     padding-left: 0;
     padding-right: 0;
 }
+/* ========================================================
+   PATCH ARTICLE MOBILE FINAL
+======================================================== */
+
+.article-content-full .article-image {
+    width: 100%;
+    height: auto;
+    margin: 38px 0 45px;
+    overflow: visible;
+    background: transparent;
+}
+
+.article-content-full .article-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.article-page a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-content-full a {
+    color: #252525;
+}
+
+@media (max-width: 600px) {
+
+    .article-page {
+        padding: 25px 0 55px;
+        overflow-x: hidden;
+    }
+
+    .article-container {
+        width: calc(100% - 32px);
+        max-width: 100%;
+    }
+
+    .breadcrumbs {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .breadcrumbs a {
+        color: #444;
+        text-decoration: none;
+    }
+
+    .article-header h1 {
+        font-size: clamp(32px, 9vw, 42px);
+        line-height: 1.08;
+        letter-spacing: -1px;
+        overflow-wrap: break-word;
+    }
+
+    .article-intro {
+        font-size: 17px;
+        line-height: 1.65;
+    }
+
+    .article-meta {
+        flex-direction: column;
+        gap: 5px;
+        font-size: 12px;
+    }
+
+    .article-main-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .article-main-image img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+    }
+
+    .article-layout {
+        display: block;
+    }
+
+    .article-content-full {
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.75;
+    }
+
+    .article-content-full h2 {
+        font-size: 27px;
+        line-height: 1.2;
+    }
+
+    .article-content-full h3 {
+        font-size: 21px;
+    }
+
+    .article-content-full .article-image {
+        width: 100%;
+        height: auto;
+        margin: 30px 0 35px;
+    }
+
+    .article-content-full .article-image img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+    }
+
+    .table-of-contents {
+        padding: 20px;
+        margin-bottom: 35px;
+    }
+
+    .article-sidebar {
+        position: static;
+        margin-top: 45px;
+    }
+
+    .related-grid,
+    .related-articles .articles-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
