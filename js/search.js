@@ -1,348 +1,131 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
     const searchButton = document.querySelector(".search-button");
+    const searchPanel = document.querySelector(".search-panel");
+    const searchForm = document.querySelector(".search-form");
+    const searchInput = document.querySelector(".search-form input");
 
-    if (!searchButton) {
+    if (!searchButton || !searchPanel || !searchForm || !searchInput) {
+        console.log("Busca: elementos nao encontrados.");
         return;
     }
 
-    const searchOverlay = document.createElement("div");
+    // ABRIR A BUSCA
+    searchButton.addEventListener("click", function () {
 
-    searchOverlay.className = "search-overlay";
+        searchPanel.classList.toggle("active");
 
-    searchOverlay.innerHTML = `
-        <div class="search-box">
-
-            <button
-                class="search-close"
-                aria-label="Cerrar búsqueda"
-            >
-                ×
-            </button>
-
-            <span class="small-title">
-                BUSCAR EN CASA & JARDÍN
-            </span>
-
-            <h2>
-                ¿Qué estás buscando?
-            </h2>
-
-            <form class="search-form">
-
-                <input
-                    type="search"
-                    placeholder="Buscar artículos..."
-                    aria-label="Buscar artículos"
-                >
-
-                <button type="submit">
-                    Buscar
-                </button>
-
-            </form>
-
-            <div class="search-message"></div>
-
-        </div>
-    `;
-
-    document.body.appendChild(searchOverlay);
-
-
-    searchButton.addEventListener("click", () => {
-
-        searchOverlay.classList.add("active");
-
-        const input =
-            searchOverlay.querySelector("input");
-
-        input.focus();
-
-    });
-
-
-    const closeButton =
-        searchOverlay.querySelector(".search-close");
-
-
-    closeButton.addEventListener("click", () => {
-
-        searchOverlay.classList.remove("active");
-
-    });
-
-
-    searchOverlay.addEventListener("click", (event) => {
-
-        if (event.target === searchOverlay) {
-
-            searchOverlay.classList.remove("active");
-
+        if (searchPanel.classList.contains("active")) {
+            searchInput.focus();
         }
-
     });
 
 
-    const form =
-        searchOverlay.querySelector(".search-form");
-
-
-    form.addEventListener("submit", (event) => {
+    // PESQUISAR
+    searchForm.addEventListener("submit", function (event) {
 
         event.preventDefault();
 
-        const input =
-            form.querySelector("input");
+        const termo = normalizar(searchInput.value);
 
-        const message =
-            searchOverlay.querySelector(".search-message");
-
-        const query =
-            input.value.trim();
-
-
-        if (!query) {
-
-            message.textContent =
-                "Escribe algo para realizar una búsqueda.";
-
+        if (termo.length < 2) {
+            alert("Escribe al menos 2 caracteres.");
             return;
+        }
 
+        const cards = document.querySelectorAll(
+            "#todos-articulos .article-card"
+        );
+
+        let resultados = [];
+
+        cards.forEach(function (card) {
+
+            const texto = normalizar(card.textContent);
+
+            if (texto.includes(termo)) {
+                resultados.push(card);
+            }
+        });
+
+
+        // REMOVER RESULTADOS ANTIGOS
+
+        let secaoAntiga = document.querySelector(
+            "#resultados-busqueda"
+        );
+
+        if (secaoAntiga) {
+            secaoAntiga.remove();
         }
 
 
-        message.textContent =
-            `Buscando resultados para: "${query}"`;
+        // CRIAR RESULTADOS
 
+        const secao = document.createElement("section");
+
+        secao.id = "resultados-busqueda";
+        secao.className = "section";
+
+        const container = document.createElement("div");
+        container.className = "container";
+
+        const titulo = document.createElement("h2");
+
+        if (resultados.length === 0) {
+
+            titulo.textContent =
+                "No encontramos artículos para tu búsqueda.";
+
+            container.appendChild(titulo);
+
+        } else {
+
+            titulo.textContent =
+                "Resultados de búsqueda (" +
+                resultados.length +
+                ")";
+
+            container.appendChild(titulo);
+
+            const grid = document.createElement("div");
+            grid.className = "articles-grid";
+
+            resultados.forEach(function (card) {
+
+                grid.appendChild(
+                    card.cloneNode(true)
+                );
+
+            });
+
+            container.appendChild(grid);
+        }
+
+        secao.appendChild(container);
+
+        const main = document.querySelector("main");
+
+        main.insertBefore(
+            secao,
+            main.firstChild
+        );
+
+        searchPanel.classList.remove("active");
+
+        secao.scrollIntoView({
+            behavior: "smooth"
+        });
     });
 
-});document.addEventListener("DOMContentLoaded", () => {
 
-    const searchButton = document.querySelector(".search-button");
+    function normalizar(texto) {
 
-    if (!searchButton) {
-        return;
+        return texto
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .trim();
     }
-
-    const searchOverlay = document.createElement("div");
-
-    searchOverlay.className = "search-overlay";
-
-    searchOverlay.innerHTML = `
-        <div class="search-box">
-
-            <button
-                class="search-close"
-                aria-label="Cerrar búsqueda"
-            >
-                ×
-            </button>
-
-            <span class="small-title">
-                BUSCAR EN CASA & JARDÍN
-            </span>
-
-            <h2>
-                ¿Qué estás buscando?
-            </h2>
-
-            <form class="search-form">
-
-                <input
-                    type="search"
-                    placeholder="Buscar artículos..."
-                    aria-label="Buscar artículos"
-                >
-
-                <button type="submit">
-                    Buscar
-                </button>
-
-            </form>
-
-            <div class="search-message"></div>
-
-        </div>
-    `;
-
-    document.body.appendChild(searchOverlay);
-
-
-    searchButton.addEventListener("click", () => {
-
-        searchOverlay.classList.add("active");
-
-        const input =
-            searchOverlay.querySelector("input");
-
-        input.focus();
-
-    });
-
-
-    const closeButton =
-        searchOverlay.querySelector(".search-close");
-
-
-    closeButton.addEventListener("click", () => {
-
-        searchOverlay.classList.remove("active");
-
-    });
-
-
-    searchOverlay.addEventListener("click", (event) => {
-
-        if (event.target === searchOverlay) {
-
-            searchOverlay.classList.remove("active");
-
-        }
-
-    });
-
-
-    const form =
-        searchOverlay.querySelector(".search-form");
-
-
-    form.addEventListener("submit", (event) => {
-
-        event.preventDefault();
-
-        const input =
-            form.querySelector("input");
-
-        const message =
-            searchOverlay.querySelector(".search-message");
-
-        const query =
-            input.value.trim();
-
-
-        if (!query) {
-
-            message.textContent =
-                "Escribe algo para realizar una búsqueda.";
-
-            return;
-
-        }
-
-
-        message.textContent =
-            `Buscando resultados para: "${query}"`;
-
-    });
 
 });
-/* =========================
-   SEARCH RESULTS
-========================= */
-
-const searchPageForm =
-    document.querySelector("#search-page-form");
-
-if (searchPageForm) {
-
-    searchPageForm.addEventListener(
-        "submit",
-        function(event) {
-
-            event.preventDefault();
-
-            const input =
-                document.querySelector("#search-page-input");
-
-            const results =
-                document.querySelector("#search-results");
-
-            const query =
-                input.value
-                    .trim()
-                    .toLowerCase();
-
-
-            if (!query) {
-
-                results.innerHTML = `
-                    <p>
-                        Escribe algo para realizar una búsqueda.
-                    </p>
-                `;
-
-                return;
-
-            }
-
-
-            const matches =
-                articles.filter(article => {
-
-                    return (
-
-                        article.title
-                            .toLowerCase()
-                            .includes(query)
-
-                        ||
-
-                        article.category
-                            .toLowerCase()
-                            .includes(query)
-
-                        ||
-
-                        article.description
-                            .toLowerCase()
-                            .includes(query)
-
-                    );
-
-                });
-
-
-            if (!matches.length) {
-
-                results.innerHTML = `
-                    <p>
-                        No encontramos artículos relacionados
-                        con tu búsqueda.
-                    </p>
-                `;
-
-                return;
-
-            }
-
-
-            results.innerHTML =
-                matches.map(article => `
-
-                    <article class="search-result">
-
-                        <span class="article-category">
-                            ${article.category}
-                        </span>
-
-                        <h2>
-                            ${article.title}
-                        </h2>
-
-                        <p>
-                            ${article.description}
-                        </p>
-
-                        <a href="${article.url}">
-                            Leer artículo →
-                        </a>
-
-                    </article>
-
-                `).join("");
-
-        }
-    );
-
-}
