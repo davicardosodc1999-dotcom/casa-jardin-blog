@@ -1,0 +1,185 @@
+/* =========================
+   SEARCH OVERLAY
+========================= */
+
+.search-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding: 100px 20px;
+
+    background: rgba(0, 0, 0, .65);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        opacity .2s ease,
+        visibility .2s ease;
+}
+
+
+.search-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.search-box {
+    position: relative;
+
+    width: min(700px, 100%);
+
+    padding: 45px;
+
+    background: #fff;
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, .2);
+}
+
+
+.search-box h2 {
+    margin: 10px 0 25px;
+
+    font-size: 36px;
+}
+
+
+.search-close {
+    position: absolute;
+
+    top: 15px;
+    right: 20px;
+
+    border: 0;
+    background: transparent;
+
+    font-size: 32px;
+
+    cursor: pointer;
+}
+
+
+.search-form {
+    display: flex;
+
+    width: 100%;
+}
+
+
+.search-form input {
+    flex: 1;
+
+    min-width: 0;
+
+    padding: 16px;
+
+    border: 1px solid #ddd;
+
+    outline: none;
+}
+
+
+.search-form button {
+    padding: 16px 24px;
+
+    border: 0;
+
+    background: #222;
+
+    color: #fff;
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+.search-message {
+    margin-top: 20px;
+
+    color: #666;
+}
+
+
+@media (max-width: 600px) {
+
+    .search-box {
+        padding: 30px 20px;
+    }
+
+
+    .search-form {
+        flex-direction: column;
+    }
+
+
+    .search-form button {
+        width: 100%;
+    }
+
+}
+/* =========================
+   SEARCH PAGE
+========================= */
+
+.search-page-form {
+    display: flex;
+    max-width: 800px;
+    margin: 40px 0;
+}
+
+.search-page-form input {
+    flex: 1;
+    min-width: 0;
+    padding: 17px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.search-page-form button {
+    border-radius: 0;
+}
+
+.search-results {
+    max-width: 850px;
+    margin-top: 40px;
+}
+
+.search-result {
+    padding: 25px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.search-result h2 {
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.search-result p {
+    color: #666;
+}
+
+.search-result a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+    .search-page-form {
+        flex-direction: column;
+    }
+
+    .search-page-form button {
+        width: 100%;
+    }
+
+}

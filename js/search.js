@@ -75,14 +75,14 @@ document.addEventListener("DOMContentLoaded", function () {
         if (resultados.length === 0) {
 
             titulo.textContent =
-                "No encontramos artículos para tu búsqueda.";
+                "We could not find articles matching your search.";
 
             container.appendChild(titulo);
 
         } else {
 
             titulo.textContent =
-                "Resultados de búsqueda (" +
+                "Resultados de search (" +
                 resultados.length +
                 ")";
 

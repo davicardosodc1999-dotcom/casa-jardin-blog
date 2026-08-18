@@ -942,3 +942,124 @@ input {
     }
 }
 
+
+
+/* ==========================================================
+   ENGLISH VERSION - STRONG TYPOGRAPHY
+   Added automatically by Block 01
+========================================================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.logo {
+    font-weight: 900;
+}
+
+.main-nav a,
+.nav-dropdown-menu a,
+.submenu a {
+    font-weight: 700;
+}
+
+.hero h1,
+.section-heading h2,
+.article-header h1,
+.article-content-full h2,
+.article-content-full h3,
+.article-card h3,
+.category-card h3,
+.popular-item h3,
+.newsletter h2,
+.about-grid h2 {
+    font-weight: 800;
+}
+
+.eyebrow,
+.article-category {
+    font-weight: 900;
+}
+
+.button,
+.text-link,
+.article-content a,
+.related-articles a,
+.search-form button,
+.newsletter-form button {
+    font-weight: 800;
+}
+
+/* Preserve readability on mobile */
+@media (max-width: 600px) {
+
+    body {
+        font-weight: 500;
+    }
+
+    .hero h1,
+    .section-heading h2,
+    .article-header h1 {
+        font-weight: 800;
+    }
+}
+
+
+
+/* FINAL-ADSENSE-HERO-NAV-START */
+.hero {
+    position: relative;
+    min-height: 460px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image:
+        linear-gradient(rgba(0,0,0,.48), rgba(0,0,0,.48)),
+        url("../img/home-hero-final.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.hero .container,
+.hero .hero-content,
+.hero .hero-text {
+    position: relative;
+    z-index: 2;
+}
+.hero h1,
+.hero h2,
+.hero p,
+.hero .subtitle,
+.hero .tagline {
+    color: #fff;
+    text-shadow: 0 2px 8px rgba(0,0,0,.45);
+}
+.hero img,
+.hero .hero-image {
+    display: none !important;
+}
+.site-sublinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 18px;
+    border-bottom: 1px solid rgba(127,127,127,.18);
+}
+.site-sublinks a {
+    text-decoration: none;
+    font-size: .94rem;
+}
+.site-sublinks a:hover,
+.site-sublinks a:focus {
+    text-decoration: underline;
+}
+@media (max-width: 700px) {
+    .hero { min-height: 360px; }
+    .site-sublinks { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
+    .site-sublinks a { white-space: nowrap; }
+}
+/* FINAL-ADSENSE-HERO-NAV-END */

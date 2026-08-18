@@ -1,0 +1,145 @@
+================================================================================
+ACTIVE SITE FINAL VERIFICATION
+================================================================================
+Root: C:\casa-jardim
+
+IMPORTANT: Backup folders are NOT scanned.
+
+1) ACTIVE ARTICLE COUNT
+--------------------------------------------------------------------------------
+Articles in active /articles folder: 100
+OK - Exactly 100 active article files.
+
+2) WORD COUNTS
+--------------------------------------------------------------------------------
+OK   25-tecnicas-cuidar-jardin.html -> 2271
+OK   arboles-pequenos-para-jardines-domesticos.html -> 2285
+OK   como-ahorar-agua-en-el-jardin.html -> 2090
+OK   como-ahorrar-energia-en-la-cocina.html -> 2111
+OK   como-aprovechar-el-alfeizar-de-las-ventanas.html -> 2276
+OK   como-aprovechar-espacios-pequenos-en-casa.html -> 2127
+OK   como-aprovechar-la-luz-natural-en-casa.html -> 2101
+OK   como-aprovechar-las-esquinas-de-la-casa.html -> 2075
+OK   como-conectar-los-espacios-interiores-y-exteriores.html -> 2051
+OK   como-crear-rincon-lectura-casa.html -> 2080
+OK   como-crear-un-camino-de-piedra-en-el-jardin.html -> 2078
+OK   como-crear-un-dormitorio-de-invitados-funcional.html -> 2062
+OK   como-crear-un-espacio-de-descanso-en-el-jardin.html -> 2095
+OK   como-crear-un-hogar-acogedor.html -> 2116
+OK   como-crear-un-hogar-elegante-sin-gastar-una-fortuna.html -> 2096
+OK   como-crear-un-huerto-en-casa.html -> 2052
+OK   como-crear-un-jardin-amigable-para-abejas-y-mariposas.html -> 2056
+OK   como-crear-un-jardin-bonito-desde-cero.html -> 2045
+OK   como-crear-un-jardin-de-bajo-mantenimiento.html -> 2139
+OK   como-crear-un-jardin-nocturno.html -> 2124
+OK   como-crear-un-jardin-vertical-en-casa.html -> 2043
+OK   como-crear-un-patio-acogedor.html -> 2063
+OK   como-crear-un-recibidor-funcional.html -> 2000
+OK   como-crear-un-rincon-de-desayuno-en-casa.html -> 2056
+OK   como-crear-un-rincon-verde-en-la-cocina.html -> 2037
+OK   como-crear-un-sistema-de-recoleccion-de-agua-de-lluvia.html -> 2010
+OK   como-crear-una-zona-de-desayuno-acogedora-en-casa.html -> 2039
+OK   como-crear-una-zona-de-trabajo-en-casa.html -> 2163
+OK   como-crear-unborde-floral-en-el-jardin.html -> 2095
+OK   como-cuidar-las-herramientas-de-jardin.html -> 2047
+OK   como-cuidar-muebles-de-madera-en-casa.html -> 2021
+OK   como-cuidar-plantas-en-invierno.html -> 2035
+OK   como-cuidar-plantas-en-verano.html -> 2042
+OK   como-cuidar-superficies-de-piedra-natural.html -> 2003
+OK   como-da-personalidad-a-una-casa-con-pequenos-detalles.html -> 2027
+OK   como-dar-un-nuevo-aire-al-dormitorio-sin-cambiar-los-muebles.html -> 2072
+OK   como-decorar-balcon-pequeno.html -> 2063
+OK   como-decorar-con-textiles-naturales-en-casa.html -> 2027
+OK   como-decorar-dormitorio-pequeno.html -> 2031
+OK   como-decorar-el-recibidor-con-personalidad.html -> 2044
+OK   como-decorar-paredes-sin-reformas.html -> 2007
+OK   como-decorar-sala-pequena.html -> 2044
+OK   como-decorar-terraza-pequena.html -> 2039
+OK   como-disenar-un-jardin-con-diferentes-alturas.html -> 2018
+OK   como-elegir-alfombras-para-casa.html -> 2058
+OK   como-elegir-colores-para-casa.html -> 2052
+OK   como-elegir-cortinas-para-casa.html -> 2045
+OK   como-elegir-iluminacion-para-comedor.html -> 2048
+OK   como-elegir-iluminacion-para-terraza.html -> 2027
+OK   como-elegir-la-mejor-ubicacion-para-un-rinco-de-lectura.html -> 2172
+OK   como-elegir-macetas-para-plantas.html -> 2003
+OK   como-elegir-materiales-para-muebles-de-jardin.html -> 2064
+OK   como-elegir-materiales-sostenibles-para-el-hogar.html -> 2095
+OK   como-elegir-muebles-para-casa.html -> 2063
+OK   como-elegir-pintura-para-exteriores-de-casa.html -> 2038
+OK   como-elegir-plantas-para-terrazas.html -> 2018
+OK   como-elegir-plantas-segun-clima.html -> 2053
+OK   como-elegir-sustrato-para-plantas-en-maceta.html -> 2022
+OK   como-evitar-plagas-en-el-jardin.html -> 2036
+OK   como-hacer-compost-en-casa.html -> 2029
+OK   como-hacer-que-la-casa-parezca-mas-grande.html -> 2004
+OK   como-heducir-el-ruido-en-casa.html -> 2039
+OK   como-incorporar-elementos-artesanales-en-la-decoracion.html -> 2880
+OK   como-integrar-plantas-decoracion.html -> 2876
+OK   como-limpiar-terraza-y-muebles-exterior.html -> 2036
+OK   como-limpiar-y-cuidar-plantas-de-interior.html -> 2054
+OK   como-mantener-el-jardin-bonito-con-poco-tiempo.html -> 2004
+OK   como-manter-casa-ordenada-habitos.html -> 2040
+OK   como-mejorar-drenaje-jardin.html -> 2040
+OK   como-mejorar-iluminacion-dormitorio.html -> 2044
+OK   como-mejorar-la-iluminacion-natural-de-casa.html -> 2102
+OK   como-mejorar-la-privacidad-del-jardin.html -> 2050
+OK   como-mejorar-la-ventilacion-de-casa.html -> 2062
+OK   como-organizar-armario-aprovechar-espacio.html -> 2033
+OK   como-organizar-bano-pequeno.html -> 2005
+OK   como-organizar-cocina-pequena.html -> 2013
+OK   como-organizar-el-garaje-en-casa.html -> 2025
+OK   como-organizar-herramientas-jardin-en-casa.html -> 2024
+OK   como-organizar-lavadero-pequeno.html -> 2012
+OK   como-planificar-un-jardin-para-todas-las-estaciones.html -> 2035
+OK   como-podar-plantas-y-arbustos.html -> 2041
+OK   como-preparar-casa-para-recibir-visitas.html -> 2036
+OK   como-preparar-el-jardin-para-el-otono.html -> 2044
+OK   como-preparar-el-suelo-para-plantar.html -> 2016
+OK   como-preparar-jardin-para-la-primavera.html -> 2024
+OK   como-preparar-la-casa-para-el-calor.html -> 2027
+OK   como-preparar-semillas-para-la-proxima-temporada.html -> 2044
+OK   como-proteger-muebles-de-exterior.html -> 2046
+OK   como-reducir-humedad-en-casa.html -> 2209
+OK   como-regar-las-plantas-correctamente.html -> 2124
+OK   como-reutilizar-muebles-antiguos-en-casa.html -> 2021
+OK   errores-comunes-cuidar-plantas.html -> 2098
+OK   guia-para-elegir-mesas-de-comedor-para-casa.html -> 2114
+OK   ideas-para-aprovechar-el-espacio-bajo-las-escaleras.html -> 2373
+OK   ideas-para-crear-sombra-natural-en-el-jardin.html -> 2209
+OK   las-mejores-plantas-para-decorar-interiores.html -> 2167
+OK   plantas-aromaticas-para-cultivar-en-casa.html -> 2130
+OK   plantas-interior-faciles-cuidar.html -> 2020
+OK   plantas-que-ayudan-a-crear-un-ambiente-relajante.html -> 2148
+OK   que-hacer-con-hojas-secas-del-jardin.html -> 2188
+
+3) SPANISH LEFTOVERS IN ACTIVE SITE
+--------------------------------------------------------------------------------
+OK - No strong Spanish prose detected in active HTML files.
+
+4) DUPLICATED ARTICLE CONTENT
+--------------------------------------------------------------------------------
+OK - No exact repeated paragraphs of 35+ words.
+
+5) HIGH ARTICLE SIMILARITY
+--------------------------------------------------------------------------------
+OK - No article pair reached 18% similarity.
+
+6) ACTIVE ARTICLE STRUCTURE
+--------------------------------------------------------------------------------
+OK - All active articles contain required structure.
+
+================================================================================
+SUMMARY
+================================================================================
+Active HTML files checked: 119
+Active articles: 100
+Blocking errors: 0
+Warnings: 0
+Active HTML files with Spanish-looking content: 0
+Articles outside 2,000-3,000 words: 0
+Exact repeated paragraphs: 0
+High-similarity pairs: 0
+
+RESULT: ACTIVE SITE HAS NO BLOCKING ERRORS.
+No duplication warnings found.

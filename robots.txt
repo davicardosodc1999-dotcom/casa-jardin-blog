@@ -1,4 +1,5 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://www.tudominio.com/sitemap.xml
+Sitemap: https://newhomecorner.com/sitemap.xml
+

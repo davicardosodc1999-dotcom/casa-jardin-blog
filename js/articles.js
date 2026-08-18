@@ -1,703 +1,602 @@
 const articles = [
-
     {
-        title: "25 técnicas para cuidar de tu jardín y convertir esta habilidad en una nueva oportunidad profesional",
-        category: "Jardinería",
-        description: "Descubre 25 técnicas prácticas para cuidar tu jardín y desarrollar conocimientos de jardinería.",
-        url: "articles/25-tecnicas-cuidar-jardin.html"
+        "title": "25 Garden Care Techniques and How to Turn This Skill Into a Professional Opportunity",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: 25 Garden Care Techniques and How to Turn This Skill Into a Professional Opportunity. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/25-tecnicas-cuidar-jardin.html"
     },
-
     {
-        title: "Árboles pequeños para jardines domésticos",
-        category: "Jardinería",
-        description: "Descubre árboles pequeños que pueden adaptarse a diferentes jardines domésticos y aportar belleza y personalidad.",
-        url: "articles/arboles-pequenos-para-jardines-domesticos.html"
+        "title": "Small Trees for Home Gardens: How to Choose and Care for Them",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: Small Trees for Home Gardens: How to Choose and Care for Them. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/arboles-pequenos-para-jardines-domesticos.html"
     },
-
     {
-        title: "Cómo ahorrar agua en el jardín",
-        category: "Jardinería",
-        description: "Ideas prácticas para reducir el consumo de agua y mantener un jardín saludable.",
-        url: "articles/como-ahorar-agua-en-el-jardin.html"
+        "title": "How to Save Water in the Garden: Practical Ways to Reduce Waste",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Save Water in the Garden: Practical Ways to Reduce Waste. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-ahorar-agua-en-el-jardin.html"
     },
-
     {
-        title: "Cómo ahorrar energía en la cocina",
-        category: "Cocina y hogar",
-        description: "Consejos sencillos para utilizar la energía de forma más eficiente en la cocina.",
-        url: "articles/como-ahorrar-energia-en-la-cocina.html"
+        "title": "How to Save Energy in the Kitchen: Practical Everyday Strategies",
+        "category": "KITCHEN & HOME",
+        "description": "Practical Home & Garden guide: How to Save Energy in the Kitchen: Practical Everyday Strategies. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-ahorrar-energia-en-la-cocina.html"
     },
-
     {
-        title: "Cómo aprovechar el alféizar de las ventanas",
-        category: "Hogar",
-        description: "Ideas para transformar los alféizares de las ventanas en espacios útiles y decorativos.",
-        url: "articles/como-aprovechar-el-alfeizar-de-las-ventanas.html"
+        "title": "How to Make the Most of Your Windowsill and Turn It Into Useful Space",
+        "category": "HOME",
+        "description": "Practical Home & Garden guide: How to Make the Most of Your Windowsill and Turn It Into Useful Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-aprovechar-el-alfeizar-de-las-ventanas.html"
     },
-
     {
-        title: "Cómo aprovechar espacios pequeños en casa",
-        category: "Organización",
-        description: "Soluciones inteligentes para aprovechar mejor cada metro disponible en una vivienda pequeña.",
-        url: "articles/como-aprovechar-espacios-pequenos-en-casa.html"
+        "title": "How to Make the Most of Small Spaces at Home",
+        "category": "HOME",
+        "description": "Practical Home & Garden guide: How to Make the Most of Small Spaces at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-aprovechar-espacios-pequenos-en-casa.html"
     },
-
     {
-        title: "Cómo aprovechar la luz natural en casa",
-        category: "Hogar",
-        description: "Ideas para aprovechar mejor la luz natural y crear espacios más luminosos y agradables.",
-        url: "articles/como-aprovechar-la-luz-natural-en-casa.html"
+        "title": "How to Make Better Use of Natural Light at Home",
+        "category": "HOME",
+        "description": "Practical Home & Garden guide: How to Make Better Use of Natural Light at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-aprovechar-la-luz-natural-en-casa.html"
     },
-
     {
-        title: "Cómo aprovechar las esquinas de la casa",
-        category: "Organización",
-        description: "Descubre formas prácticas de convertir las esquinas desaprovechadas en espacios funcionales.",
-        url: "articles/como-aprovechar-las-esquinas-de-la-casa.html"
+        "title": "How to Make the Most of Corners at Home and Turn Them Into Useful Spaces",
+        "category": "HOME",
+        "description": "Practical Home & Garden guide: How to Make the Most of Corners at Home and Turn Them Into Useful Spaces. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-aprovechar-las-esquinas-de-la-casa.html"
     },
-
     {
-        title: "Cómo conectar los espacios interiores y exteriores",
-        category: "Decoración",
-        description: "Ideas para crear una transición armoniosa entre el interior de la vivienda y los espacios exteriores.",
-        url: "articles/como-conectar-los-espacios-interiores-y-exteriores.html"
+        "title": "How to Connect Indoor and Outdoor Spaces at Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Connect Indoor and Outdoor Spaces at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-conectar-los-espacios-interiores-y-exteriores.html"
     },
-
     {
-        title: "Cómo crear un rincón de lectura en casa",
-        category: "Hogar",
-        description: "Consejos para diseñar un rincón de lectura cómodo, tranquilo y lleno de personalidad.",
-        url: "articles/como-crear-rincon-lectura-casa.html"
+        "title": "How to Create a Comfortable and Cozy Reading Corner at Home",
+        "category": "HOME",
+        "description": "Practical Home & Garden guide: How to Create a Comfortable and Cozy Reading Corner at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-rincon-lectura-casa.html"
     },
-
     {
-        title: "Cómo crear un camino de piedra en el jardín",
-        category: "Jardinería",
-        description: "Guía para crear un camino de piedra que aporte funcionalidad y carácter al jardín.",
-        url: "articles/como-crear-un-camino-de-piedra-en-el-jardin.html"
+        "title": "How to Create a Stone Path in the Garden Step by Step",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Stone Path in the Garden Step by Step. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-camino-de-piedra-en-el-jardin.html"
     },
-
     {
-        title: "Cómo crear un dormitorio de invitados funcional",
-        category: "Hogar",
-        description: "Ideas para preparar un dormitorio de invitados cómodo, práctico y acogedor.",
-        url: "articles/como-crear-un-dormitorio-de-invitados-funcional.html"
+        "title": "How to Create a Functional and Comfortable Guest Bedroom",
+        "category": "HOME",
+        "description": "Practical Home & Garden guide: How to Create a Functional and Comfortable Guest Bedroom. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-dormitorio-de-invitados-funcional.html"
     },
-
     {
-        title: "Cómo crear un espacio de descanso en el jardín",
-        category: "Jardinería",
-        description: "Ideas para crear una zona exterior tranquila donde descansar y disfrutar del jardín.",
-        url: "articles/como-crear-un-espacio-de-descanso-en-el-jardin.html"
+        "title": "How to Create a Relaxing Retreat in the Garden",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Relaxing Retreat in the Garden. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-espacio-de-descanso-en-el-jardin.html"
     },
-
     {
-        title: "Cómo crear un hogar acogedor",
-        category: "Home Decor",
-        description: "Consejos para conseguir una vivienda cálida, confortable y agradable durante todo el año.",
-        url: "articles/como-crear-un-hogar-acogedor.html"
+        "title": "How to Create a Cozy and Welcoming Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Create a Cozy and Welcoming Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-hogar-acogedor.html"
     },
-
     {
-        title: "Cómo crear un hogar elegante sin gastar una fortuna",
-        category: "Home Decor",
-        description: "Ideas sencillas para conseguir una decoración elegante sin necesidad de realizar grandes gastos.",
-        url: "articles/como-crear-un-hogar-elegante-sin-gastar-una-fortuna.html"
+        "title": "How to Create an Elegant Home Without Spending a Fortune",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Create an Elegant Home Without Spending a Fortune. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-hogar-elegante-sin-gastar-una-fortuna.html"
     },
-
     {
-        title: "Cómo crear un huerto en casa",
-        category: "Jardinería",
-        description: "Todo lo necesario para comenzar un pequeño huerto doméstico y cultivar tus propios alimentos.",
-        url: "articles/como-crear-un-huerto-en-casa.html"
+        "title": "How to Create a Home Vegetable Garden From Scratch",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Home Vegetable Garden From Scratch. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-huerto-en-casa.html"
     },
-
     {
-        title: "Cómo crear un jardín amigable para abejas y mariposas",
-        category: "Jardinería",
-        description: "Ideas para diseñar un jardín que favorezca la presencia de abejas, mariposas y otros polinizadores.",
-        url: "articles/como-crear-un-jardin-amigable-para-abejas-y-mariposas.html"
+        "title": "How to Create a Bee- and Butterfly-Friendly Garden",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Bee- and Butterfly-Friendly Garden. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-jardin-amigable-para-abejas-y-mariposas.html"
     },
-
     {
-        title: "Cómo crear un jardín bonito desde cero",
-        category: "Jardinería",
-        description: "Guía para comenzar un jardín desde cero y crear un espacio atractivo y funcional.",
-        url: "articles/como-crear-un-jardin-bonito-desde-cero.html"
+        "title": "How to Create a Beautiful Garden From Scratch",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Beautiful Garden From Scratch. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-jardin-bonito-desde-cero.html"
     },
-
     {
-        title: "Cómo crear un jardín de bajo mantenimiento",
-        category: "Jardinería",
-        description: "Consejos para diseñar un jardín bonito que requiera menos tiempo y esfuerzo de mantenimiento.",
-        url: "articles/como-crear-un-jardin-de-bajo-mantenimiento.html"
+        "title": "How to Create a Low-Maintenance Garden",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Low-Maintenance Garden. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-jardin-de-bajo-mantenimiento.html"
     },
-
     {
-        title: "Cómo crear un jardín nocturno",
-        category: "Jardinería",
-        description: "Ideas para diseñar un jardín atractivo también durante las horas de la noche.",
-        url: "articles/como-crear-un-jardin-nocturno.html"
+        "title": "How to Create a Night Garden",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Night Garden. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-jardin-nocturno.html"
     },
-
     {
-        title: "Cómo crear un jardín vertical en casa",
-        category: "Jardinería",
-        description: "Descubre cómo aprovechar las paredes para incorporar vegetación y crear un jardín vertical.",
-        url: "articles/como-crear-un-jardin-vertical-en-casa.html"
+        "title": "How to Create a Vertical Garden at Home and Make Better Use of Your Walls",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Vertical Garden at Home and Make Better Use of Your Walls. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-jardin-vertical-en-casa.html"
     },
-
     {
-        title: "Cómo crear un patio acogedor",
-        category: "Outdoor Living",
-        description: "Ideas para transformar un patio en un espacio cómodo y agradable para disfrutar al aire libre.",
-        url: "articles/como-crear-un-patio-acogedor.html"
+        "title": "How to Create a Cozy and Functional Patio at Home",
+        "category": "BACKYARD & PATIO",
+        "description": "Practical Home & Garden guide: How to Create a Cozy and Functional Patio at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-patio-acogedor.html"
     },
-
     {
-        title: "Cómo crear un recibidor funcional",
-        category: "Hogar",
-        description: "Consejos para organizar y decorar un recibidor práctico, ordenado y atractivo.",
-        url: "articles/como-crear-un-recibidor-funcional.html"
+        "title": "How to Create a Functional and Organized Entryway",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Create a Functional and Organized Entryway. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-recibidor-funcional.html"
     },
-
     {
-        title: "Cómo crear un rincón de desayuno en casa",
-        category: "Cocina y hogar",
-        description: "Ideas para diseñar una pequeña zona de desayuno cómoda y funcional.",
-        url: "articles/como-crear-un-rincon-de-desayuno-en-casa.html"
+        "title": "How to Create a Comfortable Breakfast Nook Without Taking Up Too Much Space",
+        "category": "KITCHEN & HOME",
+        "description": "Practical Home & Garden guide: How to Create a Comfortable Breakfast Nook Without Taking Up Too Much Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-rincon-de-desayuno-en-casa.html"
     },
-
     {
-        title: "Cómo crear un rincón verde en la cocina",
-        category: "Plantas",
-        description: "Ideas para incorporar plantas y elementos naturales en diferentes zonas de la cocina.",
-        url: "articles/como-crear-un-rincon-verde-en-la-cocina.html"
+        "title": "How to Create a Green Corner in the Kitchen Without Losing Functionality",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Create a Green Corner in the Kitchen Without Losing Functionality. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-rincon-verde-en-la-cocina.html"
     },
-
     {
-        title: "Cómo crear un sistema de recolección de agua de lluvia",
-        category: "Jardinería",
-        description: "Conceptos e ideas para aprovechar el agua de lluvia en el cuidado del jardín.",
-        url: "articles/como-crear-un-sistema-de-recoleccion-de-agua-de-lluvia.html"
+        "title": "How to Create a Rainwater Collection System",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Rainwater Collection System. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-un-sistema-de-recoleccion-de-agua-de-lluvia.html"
     },
-
     {
-        title: "Cómo crear una zona de desayuno acogedora en casa",
-        category: "Hogar",
-        description: "Consejos para crear un espacio agradable donde comenzar el día con comodidad.",
-        url: "articles/como-crear-una-zona-de-desayuno-acogedora-en-casa.html"
+        "title": "How to Create a Cozy Breakfast Area at Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Create a Cozy Breakfast Area at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-una-zona-de-desayuno-acogedora-en-casa.html"
     },
-
     {
-        title: "Cómo crear una zona de trabajo en casa",
-        category: "Hogar",
-        description: "Ideas para diseñar una zona de trabajo cómoda, organizada y funcional.",
-        url: "articles/como-crear-una-zona-de-trabajo-en-casa.html"
+        "title": "How to Create a Functional Work Area at Home",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Create a Functional Work Area at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-una-zona-de-trabajo-en-casa.html"
     },
-
     {
-        title: "Cómo crear un borde floral en el jardín",
-        category: "Jardinería",
-        description: "Ideas para utilizar flores y plantas para definir y embellecer diferentes zonas del jardín.",
-        url: "articles/como-crear-un-borde-floral-en-el-jardin.html"
+        "title": "How to Create a Flower Border in the Garden",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Create a Flower Border in the Garden. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-crear-unborde-floral-en-el-jardin.html"
     },
-
     {
-        title: "Cómo cuidar las herramientas de jardín",
-        category: "Jardinería",
-        description: "Consejos para limpiar, conservar y prolongar la vida útil de tus herramientas de jardín.",
-        url: "articles/como-cuidar-las-herramientas-de-jardin.html"
+        "title": "How to Care for Garden Tools",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Care for Garden Tools. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-cuidar-las-herramientas-de-jardin.html"
     },
-
     {
-        title: "Cómo cuidar muebles de madera en casa",
-        category: "Mantenimiento",
-        description: "Consejos para mantener los muebles de madera limpios, protegidos y en buen estado.",
-        url: "articles/como-cuidar-muebles-de-madera-en-casa.html"
+        "title": "How to Care for Wooden Furniture and Keep It in Good Condition",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Care for Wooden Furniture and Keep It in Good Condition. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-cuidar-muebles-de-madera-en-casa.html"
     },
-
     {
-        title: "Cómo cuidar plantas en invierno",
-        category: "Plantas",
-        description: "Recomendaciones para proteger las plantas durante los meses más fríos del año.",
-        url: "articles/como-cuidar-plantas-en-invierno.html"
+        "title": "How to Care for Plants During Winter",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Care for Plants During Winter. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-cuidar-plantas-en-invierno.html"
     },
-
     {
-        title: "Cómo cuidar plantas en verano",
-        category: "Plantas",
-        description: "Consejos para ayudar a tus plantas a soportar las altas temperaturas y el calor del verano.",
-        url: "articles/como-cuidar-plantas-en-verano.html"
+        "title": "How to Care for Plants During Summer",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Care for Plants During Summer. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-cuidar-plantas-en-verano.html"
     },
-
     {
-        title: "Cómo cuidar superficies de piedra natural",
-        category: "Mantenimiento",
-        description: "Ideas para limpiar y conservar correctamente diferentes superficies de piedra natural.",
-        url: "articles/como-cuidar-superficies-de-piedra-natural.html"
+        "title": "How to Care for Natural Stone Surfaces",
+        "category": "CLEANING & MAINTENANCE",
+        "description": "Practical Home & Garden guide: How to Care for Natural Stone Surfaces. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-cuidar-superficies-de-piedra-natural.html"
     },
-
     {
-        title: "Cómo dar personalidad a una casa con pequeños detalles",
-        category: "Home Decor",
-        description: "Pequeños cambios que pueden aportar carácter y personalidad a cualquier vivienda.",
-        url: "articles/como-da-personalidad-a-una-casa-con-pequenos-detalles.html"
+        "title": "How to Give a Home Personality With Small Details",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Give a Home Personality With Small Details. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-da-personalidad-a-una-casa-con-pequenos-detalles.html"
     },
-
     {
-        title: "Cómo dar un nuevo aire al dormitorio sin cambiar los muebles",
-        category: "Home Decor",
-        description: "Ideas sencillas para renovar el dormitorio utilizando los muebles que ya tienes.",
-        url: "articles/como-dar-un-nuevo-aire-al-dormitorio-sin-cambiar-los-muebles.html"
+        "title": "How to Refresh a Bedroom Without Replacing the Furniture",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Refresh a Bedroom Without Replacing the Furniture. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-dar-un-nuevo-aire-al-dormitorio-sin-cambiar-los-muebles.html"
     },
-
     {
-        title: "Cómo decorar un balcón pequeño",
-        category: "Home Decor",
-        description: "Soluciones para aprovechar y decorar balcones pequeños con estilo y funcionalidad.",
-        url: "articles/como-decorar-balcon-pequeno.html"
+        "title": "How to Decorate a Small Balcony and Make the Most of Every Inch",
+        "category": "OUTDOOR LIVING",
+        "description": "Practical Home & Garden guide: How to Decorate a Small Balcony and Make the Most of Every Inch. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-decorar-balcon-pequeno.html"
     },
-
     {
-        title: "Cómo decorar con textiles naturales en casa",
-        category: "Home Decor",
-        description: "Ideas para incorporar textiles naturales y conseguir ambientes cálidos y acogedores.",
-        url: "articles/como-decorar-con-textiles-naturales-en-casa.html"
+        "title": "How to Decorate With Natural Textiles at Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Decorate With Natural Textiles at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-decorar-con-textiles-naturales-en-casa.html"
     },
-
     {
-        title: "Cómo decorar un dormitorio pequeño",
-        category: "Home Decor",
-        description: "Consejos para decorar dormitorios pequeños aprovechando al máximo el espacio disponible.",
-        url: "articles/como-decorar-dormitorio-pequeno.html"
+        "title": "How to Decorate a Small Bedroom to Make It Feel More Spacious",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Decorate a Small Bedroom to Make It Feel More Spacious. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-decorar-dormitorio-pequeno.html"
     },
-
     {
-        title: "Cómo decorar el recibidor con personalidad",
-        category: "Home Decor",
-        description: "Ideas para convertir el recibidor en una zona atractiva que refleje el estilo de la vivienda.",
-        url: "articles/como-decorar-el-recibidor-con-personalidad.html"
+        "title": "How to Decorate an Entryway With Personality and Keep It Functional",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Decorate an Entryway With Personality and Keep It Functional. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-decorar-el-recibidor-con-personalidad.html"
     },
-
     {
-        title: "Cómo decorar paredes sin reformas",
-        category: "Home Decor",
-        description: "Formas sencillas de transformar las paredes sin realizar grandes obras o reformas.",
-        url: "articles/como-decorar-paredes-sin-reformas.html"
+        "title": "How to Decorate Walls Without Renovation",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Decorate Walls Without Renovation. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-decorar-paredes-sin-reformas.html"
     },
-
     {
-        title: "Cómo decorar una sala pequeña",
-        category: "Home Decor",
-        description: "Consejos para conseguir que una sala pequeña resulte cómoda, equilibrada y visualmente amplia.",
-        url: "articles/como-decorar-sala-pequena.html"
+        "title": "How to Decorate a Small Living Room and Make Better Use of the Space",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Decorate a Small Living Room and Make Better Use of the Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-decorar-sala-pequena.html"
     },
-
     {
-        title: "Cómo decorar una terraza pequeña",
-        category: "Outdoor Living",
-        description: "Ideas para aprovechar cada rincón de una terraza pequeña y convertirla en un espacio agradable.",
-        url: "articles/como-decorar-terraza-pequena.html"
+        "title": "How to Decorate a Small Terrace and Turn It Into a Cozy Space",
+        "category": "OUTDOOR LIVING",
+        "description": "Practical Home & Garden guide: How to Decorate a Small Terrace and Turn It Into a Cozy Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-decorar-terraza-pequena.html"
     },
-
     {
-        title: "Cómo diseñar un jardín con diferentes alturas",
-        category: "Jardinería",
-        description: "Descubre cómo utilizar diferentes niveles para crear un jardín más dinámico e interesante.",
-        url: "articles/como-disenar-un-jardin-con-diferentes-alturas.html"
+        "title": "How to Design a Garden With Different Heights",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Design a Garden With Different Heights. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-disenar-un-jardin-con-diferentes-alturas.html"
     },
-
     {
-        title: "Cómo elegir alfombras para casa",
-        category: "Home Decor",
-        description: "Aspectos importantes que conviene considerar al elegir alfombras para diferentes espacios.",
-        url: "articles/como-elegir-alfombras-para-casa.html"
+        "title": "How to Choose Rugs for Every Room in Your Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Choose Rugs for Every Room in Your Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-alfombras-para-casa.html"
     },
-
     {
-        title: "Cómo elegir colores para casa",
-        category: "Home Decor",
-        description: "Guía práctica para elegir colores que creen ambientes equilibrados y agradables.",
-        url: "articles/como-elegir-colores-para-casa.html"
+        "title": "How to Choose Colors for Your Home and Create a Balanced Palette",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Choose Colors for Your Home and Create a Balanced Palette. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-colores-para-casa.html"
     },
-
     {
-        title: "Cómo elegir cortinas para casa",
-        category: "Home Decor",
-        description: "Consejos para elegir cortinas según el espacio, la luz y el estilo de la vivienda.",
-        url: "articles/como-elegir-cortinas-para-casa.html"
+        "title": "How to Choose Curtains for Your Home Based on Light, Privacy, and Style",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Choose Curtains for Your Home Based on Light, Privacy, and Style. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-cortinas-para-casa.html"
     },
-
     {
-        title: "Cómo elegir iluminación para el comedor",
-        category: "Home Decor",
-        description: "Ideas para elegir una iluminación adecuada que mejore la comodidad y el ambiente del comedor.",
-        url: "articles/como-elegir-iluminacion-para-comedor.html"
+        "title": "How to Choose Lighting for the Dining Room",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Choose Lighting for the Dining Room. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-iluminacion-para-comedor.html"
     },
-
     {
-        title: "Cómo elegir iluminación para la terraza",
-        category: "Outdoor Living",
-        description: "Consejos para iluminar una terraza y aprovecharla durante las horas de la noche.",
-        url: "articles/como-elegir-iluminacion-para-terraza.html"
+        "title": "How to Choose Lighting for a Comfortable and Safe Terrace",
+        "category": "OUTDOOR LIVING",
+        "description": "Practical Home & Garden guide: How to Choose Lighting for a Comfortable and Safe Terrace. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-iluminacion-para-terraza.html"
     },
-
     {
-        title: "Cómo elegir la mejor ubicación para un rincón de lectura",
-        category: "Hogar",
-        description: "Aspectos que conviene valorar para encontrar el lugar ideal para leer en casa.",
-        url: "articles/como-elegir-la-mejor-ubicacion-para-un-rincon-de-lectura.html"
+        "title": "How to Choose the Best Location for a Reading Nook",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Choose the Best Location for a Reading Nook. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-la-mejor-ubicacion-para-un-rinco-de-lectura.html"
     },
-
     {
-        title: "Cómo elegir macetas para plantas",
-        category: "Plantas",
-        description: "Guía para elegir macetas adecuadas según el tipo de planta, el espacio y las necesidades de cultivo.",
-        url: "articles/como-elegir-macetas-para-plantas.html"
+        "title": "How to Choose the Right Pots for Each Type of Plant",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Choose the Right Pots for Each Type of Plant. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-macetas-para-plantas.html"
     },
-
     {
-        title: "Cómo elegir materiales para muebles de jardín",
-        category: "Outdoor Living",
-        description: "Descubre qué aspectos valorar al elegir materiales resistentes para muebles de exterior.",
-        url: "articles/como-elegir-materiales-para-muebles-de-jardin.html"
+        "title": "How to Choose Materials for Garden Furniture",
+        "category": "OUTDOOR LIVING",
+        "description": "Practical Home & Garden guide: How to Choose Materials for Garden Furniture. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-materiales-para-muebles-de-jardin.html"
     },
-
     {
-        title: "Cómo elegir materiales sostenibles para el hogar",
-        category: "Hogar",
-        description: "Consejos para valorar materiales, durabilidad y mantenimiento al crear espacios más responsables.",
-        url: "articles/como-elegir-materiales-sostenibles-para-el-hogar.html"
+        "title": "How to Choose Sustainable Materials for the Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Choose Sustainable Materials for the Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-materiales-sostenibles-para-el-hogar.html"
     },
-
     {
-        title: "Cómo elegir muebles para casa",
-        category: "Home Decor",
-        description: "Aspectos fundamentales para elegir muebles funcionales y adecuados para cada espacio.",
-        url: "articles/como-elegir-muebles-para-casa.html"
+        "title": "How to Choose the Right Furniture for Every Room in the Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Choose the Right Furniture for Every Room in the Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-muebles-para-casa.html"
     },
-
     {
-        title: "Cómo elegir pintura para exteriores de casa",
-        category: "Mantenimiento",
-        description: "Consejos para elegir pinturas adecuadas para proteger y renovar las superficies exteriores.",
-        url: "articles/como-elegir-pintura-para-exteriores-de-casa.html"
+        "title": "How to Choose Exterior Paint for Your Home Without Making Mistakes",
+        "category": "CLEANING & MAINTENANCE",
+        "description": "Practical Home & Garden guide: How to Choose Exterior Paint for Your Home Without Making Mistakes. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-pintura-para-exteriores-de-casa.html"
     },
-
     {
-        title: "Cómo elegir plantas para terrazas",
-        category: "Plantas",
-        description: "Ideas para seleccionar plantas que puedan adaptarse a diferentes tipos de terrazas.",
-        url: "articles/como-elegir-plantas-para-terrazas.html"
+        "title": "How to Choose Suitable Plants for Terraces",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Choose Suitable Plants for Terraces. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-plantas-para-terrazas.html"
     },
-
     {
-        title: "Cómo elegir plantas según el clima",
-        category: "Plantas",
-        description: "Aprende a considerar el clima y las condiciones del entorno antes de elegir plantas.",
-        url: "articles/como-elegir-plantas-segun-clima.html"
+        "title": "How to Choose Plants According to Your Region's Climate",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Choose Plants According to Your Region's Climate. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-plantas-segun-clima.html"
     },
-
     {
-        title: "Cómo evitar plagas en el jardín",
-        category: "Jardinería",
-        description: "Medidas prácticas para prevenir problemas habituales de plagas en el jardín.",
-        url: "articles/como-evitar-plagas-en-el-jardin.html"
+        "title": "How to Choose the Right Potting Mix for Container Plants",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Choose the Right Potting Mix for Container Plants. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-elegir-sustrato-para-plantas-en-maceta.html"
     },
-
     {
-        title: "Cómo hacer compost en casa",
-        category: "Jardinería",
-        description: "Guía para comenzar a aprovechar los residuos orgánicos y crear compost en casa.",
-        url: "articles/como-hacer-compost-en-casa.html"
+        "title": "How to Prevent Garden Pests and Keep Your Plants Healthy",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Prevent Garden Pests and Keep Your Plants Healthy. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-evitar-plagas-en-el-jardin.html"
     },
-
     {
-        title: "Cómo hacer que la casa parezca más grande",
-        category: "Home Decor",
-        description: "Trucos visuales y soluciones decorativas para conseguir que los espacios parezcan más amplios.",
-        url: "articles/como-hacer-que-la-casa-parezca-mas-grande.html"
+        "title": "How to Make Compost at Home: A Simple Beginner's Guide",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Make Compost at Home: A Simple Beginner's Guide. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-hacer-compost-en-casa.html"
     },
-
     {
-        title: "Cómo reducir el ruido en casa",
-        category: "Hogar",
-        description: "Ideas para mejorar el confort acústico y reducir diferentes fuentes de ruido dentro de casa.",
-        url: "articles/como-reducir-el-ruido-en-casa.html"
+        "title": "How to Make a Small Home Look and Feel Larger",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Make a Small Home Look and Feel Larger. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-hacer-que-la-casa-parezca-mas-grande.html"
     },
-
     {
-        title: "Cómo incorporar elementos artesanales en la decoración",
-        category: "Home Decor",
-        description: "Ideas para incorporar piezas artesanales y aportar personalidad a la decoración.",
-        url: "articles/como-incorporar-elementos-artesanales-en-la-decoracion.html"
+        "title": "How to Reduce Noise at Home and Improve Room Comfort",
+        "category": "HOME",
+        "description": "Practical Home & Garden guide: How to Reduce Noise at Home and Improve Room Comfort. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-heducir-el-ruido-en-casa.html"
     },
-
     {
-        title: "Cómo integrar plantas en la decoración",
-        category: "Plantas",
-        description: "Consejos para utilizar plantas como parte de la decoración y crear espacios más naturales.",
-        url: "articles/como-integrar-plantas-decoracion.html"
+        "title": "How to Incorporate Handmade Elements Into Home Decor",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Incorporate Handmade Elements Into Home Decor. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-incorporar-elementos-artesanales-en-la-decoracion.html"
     },
-
     {
-        title: "Cómo limpiar terraza y muebles de exterior",
-        category: "Limpieza y mantenimiento",
-        description: "Consejos para limpiar y conservar correctamente terrazas y muebles de exterior.",
-        url: "articles/como-limpiar-terraza-y-muebles-exterior.html"
+        "title": "How to Integrate Plants Into Home Decor Without Overcrowding",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Integrate Plants Into Home Decor Without Overcrowding. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-integrar-plantas-decoracion.html"
     },
-
     {
-        title: "Cómo limpiar y cuidar plantas de interior",
-        category: "Plantas",
-        description: "Consejos básicos para mantener las plantas de interior limpias, saludables y bonitas.",
-        url: "articles/como-limpiar-y-cuidar-plantas-de-interior.html"
+        "title": "How to Clean and Maintain a Terrace and Outdoor Furniture",
+        "category": "CLEANING & MAINTENANCE",
+        "description": "Practical Home & Garden guide: How to Clean and Maintain a Terrace and Outdoor Furniture. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-limpiar-terraza-y-muebles-exterior.html"
     },
-
     {
-        title: "Cómo mantener el jardín bonito con poco tiempo",
-        category: "Jardinería",
-        description: "Estrategias sencillas para mantener un jardín atractivo cuando dispones de poco tiempo.",
-        url: "articles/como-mantener-el-jardin-bonito-con-poco-tiempo.html"
+        "title": "How to Clean and Care for Indoor Plants Correctly",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Clean and Care for Indoor Plants Correctly. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-limpiar-y-cuidar-plantas-de-interior.html"
     },
-
     {
-        title: "Cómo mantener la casa ordenada con buenos hábitos",
-        category: "Organización",
-        description: "Hábitos prácticos que pueden ayudarte a mantener el orden en casa de forma constante.",
-        url: "articles/como-mantener-casa-ordenada-habitos.html"
+        "title": "How to Keep Your Garden Beautiful When You Have Little Time",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Keep Your Garden Beautiful When You Have Little Time. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-mantener-el-jardin-bonito-con-poco-tiempo.html"
     },
-
     {
-        title: "Cómo mejorar el drenaje del jardín",
-        category: "Jardinería",
-        description: "Ideas para mejorar el drenaje y evitar problemas relacionados con el exceso de agua en el jardín.",
-        url: "articles/como-mejorar-drenaje-jardin.html"
+        "title": "How to Keep Your Home Organized Every Day With Simple Habits",
+        "category": "ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Keep Your Home Organized Every Day With Simple Habits. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-manter-casa-ordenada-habitos.html"
     },
-
     {
-        title: "Cómo mejorar la iluminación del dormitorio",
-        category: "Home Decor",
-        description: "Consejos para crear una iluminación más cómoda, equilibrada y funcional en el dormitorio.",
-        url: "articles/como-mejorar-iluminacion-dormitorio.html"
+        "title": "How to Improve Garden Drainage and Prevent Excess Water",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Improve Garden Drainage and Prevent Excess Water. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-mejorar-drenaje-jardin.html"
     },
-
     {
-        title: "Cómo mejorar la iluminación natural de casa",
-        category: "Hogar",
-        description: "Ideas para aprovechar mejor la luz natural y mejorar la sensación de amplitud de los espacios.",
-        url: "articles/como-mejorar-la-iluminacion-natural-de-casa.html"
+        "title": "How to Improve Bedroom Lighting and Create a More Comfortable Atmosphere",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Improve Bedroom Lighting and Create a More Comfortable Atmosphere. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-mejorar-iluminacion-dormitorio.html"
     },
-
     {
-        title: "Cómo mejorar la privacidad del jardín",
-        category: "Jardinería",
-        description: "Soluciones para crear mayor privacidad en el jardín utilizando plantas, estructuras y otros recursos.",
-        url: "articles/como-mejorar-la-privacidad-del-jardin.html"
+        "title": "How to Improve Natural Lighting at Home",
+        "category": "HOME DECOR",
+        "description": "Practical Home & Garden guide: How to Improve Natural Lighting at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-mejorar-la-iluminacion-natural-de-casa.html"
     },
-
     {
-        title: "Cómo mejorar la ventilación de casa",
-        category: "Hogar",
-        description: "Consejos para favorecer una buena circulación del aire y mejorar el confort de la vivienda.",
-        url: "articles/como-mejorar-la-ventilacion-de-casa.html"
+        "title": "How to Improve Garden Privacy Without Losing Light or Space",
+        "category": "OUTDOOR LIVING",
+        "description": "Practical Home & Garden guide: How to Improve Garden Privacy Without Losing Light or Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-mejorar-la-privacidad-del-jardin.html"
     },
-
     {
-        title: "Cómo organizar el armario y aprovechar el espacio",
-        category: "Organización",
-        description: "Ideas para organizar mejor el armario y aprovechar cada centímetro disponible.",
-        url: "articles/como-organizar-armario-aprovechar-espacio.html"
+        "title": "How to Improve Home Ventilation in a Practical Way",
+        "category": "HOME MAINTENANCE",
+        "description": "Practical Home & Garden guide: How to Improve Home Ventilation in a Practical Way. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-mejorar-la-ventilacion-de-casa.html"
     },
-
     {
-        title: "Cómo organizar un baño pequeño",
-        category: "Organización",
-        description: "Soluciones prácticas para mantener organizado un baño pequeño sin perder funcionalidad.",
-        url: "articles/como-organizar-bano-pequeno.html"
+        "title": "How to Organize a Closet and Make Better Use of Space",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Organize a Closet and Make Better Use of Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-organizar-armario-aprovechar-espacio.html"
     },
-
     {
-        title: "Cómo organizar una cocina pequeña",
-        category: "Organización",
-        description: "Consejos para aprovechar el espacio y mantener una cocina pequeña ordenada.",
-        url: "articles/como-organizar-cocina-pequena.html"
+        "title": "How to Organize a Small Bathroom and Use Every Inch",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Organize a Small Bathroom and Use Every Inch. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-organizar-bano-pequeno.html"
     },
-
     {
-        title: "Cómo organizar el garaje en casa",
-        category: "Organización",
-        description: "Ideas para ordenar herramientas, objetos y materiales y aprovechar mejor el garaje.",
-        url: "articles/como-organizar-el-garaje-en-casa.html"
+        "title": "How to Organize a Small Kitchen and Make Better Use of Every Space",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Organize a Small Kitchen and Make Better Use of Every Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-organizar-cocina-pequena.html"
     },
-
     {
-        title: "Cómo organizar las herramientas de jardín en casa",
-        category: "Jardinería",
-        description: "Soluciones para guardar y organizar las herramientas de jardín de forma práctica y segura.",
-        url: "articles/como-organizar-herramientas-jardin-en-casa.html"
+        "title": "How to Organize Your Garage and Make Better Use of Space",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Organize Your Garage and Make Better Use of Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-organizar-el-garaje-en-casa.html"
     },
-
     {
-        title: "Cómo organizar un lavadero pequeño",
-        category: "Organización",
-        description: "Ideas para aprovechar mejor el espacio disponible en un lavadero pequeño.",
-        url: "articles/como-organizar-lavadero-pequeno.html"
+        "title": "How to Organize Garden Tools at Home",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Organize Garden Tools at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-organizar-herramientas-jardin-en-casa.html"
     },
-
     {
-        title: "Cómo planificar un jardín para todas las estaciones",
-        category: "Jardinería",
-        description: "Consejos para crear un jardín atractivo y funcional durante diferentes épocas del año.",
-        url: "articles/como-planificar-un-jardin-para-todas-las-estaciones.html"
+        "title": "How to Organize a Small Laundry Room and Use Every Space",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Organize a Small Laundry Room and Use Every Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-organizar-lavadero-pequeno.html"
     },
-
     {
-        title: "Cómo podar plantas y arbustos",
-        category: "Jardinería",
-        description: "Principios básicos para realizar una poda adecuada y mantener las plantas en buenas condiciones.",
-        url: "articles/como-podar-plantas-y-arbustos.html"
+        "title": "How to Plan a Garden for Every Season",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Plan a Garden for Every Season. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-planificar-un-jardin-para-todas-las-estaciones.html"
     },
-
     {
-        title: "Cómo preparar la casa para recibir visitas",
-        category: "Hogar",
-        description: "Ideas para preparar y organizar la casa antes de recibir familiares o invitados.",
-        url: "articles/como-preparar-casa-para-recibir-visitas.html"
+        "title": "How to Prune Plants and Shrubs Correctly: A Beginner's Guide",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Prune Plants and Shrubs Correctly: A Beginner's Guide. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-podar-plantas-y-arbustos.html"
     },
-
     {
-        title: "Cómo preparar el jardín para el otoño",
-        category: "Jardinería",
-        description: "Tareas y recomendaciones para preparar el jardín antes de la llegada del otoño.",
-        url: "articles/como-preparar-el-jardin-para-el-otono.html"
+        "title": "How to Prepare Your Home for Visitors Without Stress",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: How to Prepare Your Home for Visitors Without Stress. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-preparar-casa-para-recibir-visitas.html"
     },
-
     {
-        title: "Cómo preparar el suelo para plantar",
-        category: "Jardinería",
-        description: "Pasos importantes para preparar correctamente el suelo antes de plantar.",
-        url: "articles/como-preparar-el-suelo-para-plantar.html"
+        "title": "How to Prepare Your Garden for Autumn",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Prepare Your Garden for Autumn. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-preparar-el-jardin-para-el-otono.html"
     },
-
     {
-        title: "Cómo preparar el jardín para la primavera",
-        category: "Jardinería",
-        description: "Tareas esenciales para preparar el jardín y recibir la nueva temporada.",
-        url: "articles/como-preparar-jardin-para-la-primavera.html"
+        "title": "How to Prepare Soil for Planting and Improve Plant Growth",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Prepare Soil for Planting and Improve Plant Growth. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-preparar-el-suelo-para-plantar.html"
     },
-
     {
-        title: "Cómo preparar la casa para el calor",
-        category: "Hogar",
-        description: "Ideas para mejorar el confort de la vivienda durante los períodos de altas temperaturas.",
-        url: "articles/como-preparar-la-casa-para-el-calor.html"
+        "title": "How to Prepare Your Garden for Spring and Start the Season",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Prepare Your Garden for Spring and Start the Season. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-preparar-jardin-para-la-primavera.html"
     },
-
     {
-        title: "Cómo preparar semillas para la próxima temporada",
-        category: "Jardinería",
-        description: "Consejos para conservar y preparar semillas pensando en futuras temporadas de cultivo.",
-        url: "articles/como-preparar-semillas-para-la-proxima-temporada.html"
+        "title": "How to Prepare Your Home for Hot Weather and Keep It More Comfortable",
+        "category": "CLEANING & MAINTENANCE",
+        "description": "Practical Home & Garden guide: How to Prepare Your Home for Hot Weather and Keep It More Comfortable. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-preparar-la-casa-para-el-calor.html"
     },
-
     {
-        title: "Cómo proteger muebles de exterior",
-        category: "Outdoor Living",
-        description: "Consejos para proteger los muebles exteriores frente al sol, la humedad y otros factores.",
-        url: "articles/como-proteger-muebles-de-exterior.html"
+        "title": "How to Prepare and Store Seeds for the Next Season",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Prepare and Store Seeds for the Next Season. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-preparar-semillas-para-la-proxima-temporada.html"
     },
-
     {
-        title: "Cómo reducir la humedad en casa",
-        category: "Mantenimiento",
-        description: "Medidas prácticas para controlar la humedad y mejorar el confort dentro de casa.",
-        url: "articles/como-reducir-humedad-en-casa.html"
+        "title": "How to Protect Outdoor Furniture and Extend Its Useful Life",
+        "category": "OUTDOOR LIVING",
+        "description": "Practical Home & Garden guide: How to Protect Outdoor Furniture and Extend Its Useful Life. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-proteger-muebles-de-exterior.html"
     },
-
     {
-        title: "Cómo regar las plantas correctamente",
-        category: "Plantas",
-        description: "Aprende algunos principios básicos para regar las plantas de forma adecuada.",
-        url: "articles/como-regar-las-plantas-correctamente.html"
+        "title": "How to Reduce Humidity at Home and Keep Rooms More Comfortable",
+        "category": "CLEANING & MAINTENANCE",
+        "description": "Practical Home & Garden guide: How to Reduce Humidity at Home and Keep Rooms More Comfortable. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-reducir-humedad-en-casa.html"
     },
-
     {
-        title: "Cómo reutilizar muebles antiguos en casa",
-        category: "DIY & Manualidades",
-        description: "Ideas para recuperar, transformar y dar una nueva vida a muebles antiguos.",
-        url: "articles/como-reutilizar-muebles-antiguos-en-casa.html"
+        "title": "How to Water Plants Correctly: Frequency, Amount, and Mistakes to Avoid",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Water Plants Correctly: Frequency, Amount, and Mistakes to Avoid. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-regar-las-plantas-correctamente.html"
     },
-
     {
-        title: "Errores comunes al cuidar las plantas",
-        category: "Plantas",
-        description: "Conoce algunos errores habituales que pueden afectar el crecimiento y la salud de tus plantas.",
-        url: "articles/errores-comunes-cuidar-plantas.html"
+        "title": "How to Reuse Old Furniture at Home",
+        "category": "DIY & CRAFTS",
+        "description": "Practical Home & Garden guide: How to Reuse Old Furniture at Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/como-reutilizar-muebles-antiguos-en-casa.html"
     },
-
     {
-        title: "Guía para elegir mesas de comedor para casa",
-        category: "Home Decor",
-        description: "Aspectos que conviene valorar para elegir una mesa de comedor adecuada para tu hogar.",
-        url: "articles/guia-para-elegir-mesas-de-comedor-para-casa.html"
+        "title": "Common Plant Care Mistakes and How to Avoid Them",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: Common Plant Care Mistakes and How to Avoid Them. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/errores-comunes-cuidar-plantas.html"
     },
-
     {
-        title: "Ideas para aprovechar el espacio bajo las escaleras",
-        category: "Organización",
-        description: "Soluciones creativas para convertir el espacio bajo las escaleras en una zona útil.",
-        url: "articles/ideas-para-aprovechar-el-espacio-bajo-las-escaleras.html"
+        "title": "Guide to Choosing a Dining Table for Your Home",
+        "category": "KITCHEN & HOME",
+        "description": "Practical Home & Garden guide: Guide to Choosing a Dining Table for Your Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/guia-para-elegir-mesas-de-comedor-para-casa.html"
     },
-
     {
-        title: "Ideas para crear sombra natural en el jardín",
-        category: "Jardinería",
-        description: "Formas de crear zonas de sombra natural para disfrutar más del jardín.",
-        url: "articles/ideas-para-crear-sombra-natural-en-el-jardin.html"
+        "title": "How to Make the Most of the Space Under the Stairs",
+        "category": "HOME ORGANIZATION",
+        "description": "Practical Home & Garden guide: Guide to Choosing the Right Sofa for Your Living Room. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/ideas-para-aprovechar-el-espacio-bajo-las-escaleras.html"
     },
-
     {
-        title: "Las mejores plantas para decorar interiores",
-        category: "Plantas",
-        description: "Una selección de plantas que pueden transformar diferentes rincones del hogar.",
-        url: "articles/las-mejores-plantas-para-decorar-interiores.html"
+        "title": "How to Create Natural Shade in the Garden",
+        "category": "OUTDOOR LIVING",
+        "description": "Practical Home & Garden guide: How to Organize a Small Kitchen and Make Better Use of Space. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/ideas-para-crear-sombra-natural-en-el-jardin.html"
     },
-
     {
-        title: "Plantas aromáticas para cultivar en casa",
-        category: "Plantas",
-        description: "Ideas para cultivar plantas aromáticas en casa y tenerlas disponibles durante todo el año.",
-        url: "articles/plantas-aromaticas-para-cultivar-en-casa.html"
+        "title": "Best Plants for Decorating Indoor Spaces",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Prepare a Garden for Spring. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/las-mejores-plantas-para-decorar-interiores.html"
     },
-
     {
-        title: "Plantas de interior fáciles de cuidar",
-        category: "Plantas",
-        description: "Descubre plantas de interior adecuadas para quienes buscan opciones fáciles de mantener.",
-        url: "articles/plantas-interior-faciles-cuidar.html"
+        "title": "Best Aromatic Herbs to Grow at Home",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: How to Protect Outdoor Furniture From Sun and Rain. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/plantas-aromaticas-para-cultivar-en-casa.html"
     },
-
     {
-        title: "Plantas que ayudan a crear un ambiente relajante",
-        category: "Plantas",
-        description: "Ideas para incorporar plantas que contribuyan a crear espacios interiores tranquilos y agradables.",
-        url: "articles/plantas-que-ayudan-a-crear-un-ambiente-relajante.html"
+        "title": "Easy-Care Indoor Plants for Beginners",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: How to Choose Curtains for Every Room in Your Home. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/plantas-interior-faciles-cuidar.html"
     },
-
     {
-        title: "Qué hacer con las hojas secas del jardín",
-        category: "Jardinería",
-        description: "Ideas prácticas para aprovechar o gestionar las hojas secas que se acumulan en el jardín.",
-        url: "articles/que-hacer-con-hojas-secas-del-jardin.html"
+        "title": "Plants That Help Create a Relaxing Atmosphere",
+        "category": "INDOOR PLANTS",
+        "description": "Practical Home & Garden guide: Plants That Help Create a Relaxing Atmosphere. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/plantas-que-ayudan-a-crear-un-ambiente-relajante.html"
     },
-
     {
-        title: "Qué tener en cuenta antes de comprar muebles para casa",
-        category: "Home Decor",
-        description: "Aspectos importantes que conviene analizar antes de comprar nuevos muebles para el hogar.",
-        url: "articles/que-tener-en-cuenta-antes-de-comprar-muebles-para-casa.html"
+        "title": "What to Do With Dry Leaves From the Garden",
+        "category": "GARDENING",
+        "description": "Practical Home & Garden guide: What to Do With Dry Leaves From the Garden. Clear steps, useful tips, common mistakes to avoid, and maintenance advice.",
+        "url": "articles/que-hacer-con-hojas-secas-del-jardin.html"
     }
-
 ];

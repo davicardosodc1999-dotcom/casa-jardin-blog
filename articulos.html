@@ -1,175 +1,92 @@
 ﻿<!DOCTYPE html>
-<html lang="es">
 
+<html lang="en">
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>
-        Todos los artículos | Casa & Jardín
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+        All Articles | Home &amp; Garden
     </title>
-
-    <meta
-        name="description"
-        content="Explora todos los artículos de Casa & Jardín sobre jardinería, plantas, decoración, organización y hogar."
-    >
-
-    <link
-        rel="stylesheet"
-        href="css/style.css"
-    >
-
+<meta content="Practical ideas, guides, and inspiration for home, gardening, organization, decor, plants, and outdoor living." name="description"/>
+<link href="css/style.css" rel="stylesheet"/>
 </head>
-
 <body>
-
 <header class="site-header">
-
-    <div class="container header-inner">
-
-        <a
-            href="index.html"
-            class="logo"
-            aria-label="Casa y Jardín - Inicio"
-        >
-            Casa <span>&</span> Jardín
+<div class="container header-inner">
+<a aria-label="Home &amp; Garden navigation" class="logo" href="index.html">
+            Home <span>&amp;</span> Garden
         </a>
-
-        <nav class="main-nav">
-
-            <a href="index.html">
-                Inicio
+<nav class="main-nav">
+<a href="index.html">
+                Home
             </a>
-
-            
 <div class="nav-dropdown">
-
-    <a
-        href="index.html#categorias"
-        class="nav-dropdown-trigger"
-        aria-haspopup="true"
-        aria-expanded="false"
-    >
-        Categor&iacute;as
-        <span class="nav-dropdown-arrow" aria-hidden="true">&#9662;</span>
-    </a>
-
-    <div class="nav-dropdown-menu">
-
-        <a href="categorias/jardineria.html">
-            Jardiner&iacute;a
+<a aria-expanded="false" aria-haspopup="true" class="nav-dropdown-trigger" href="index.html#categorias">
+        Categories
+        <span aria-hidden="true" class="nav-dropdown-arrow">▾</span>
+</a>
+<div class="nav-dropdown-menu">
+<a href="categorias/jardineria.html">
+            Gardening
         </a>
-
-        <a href="categorias/home-decor.html">
+<a href="categorias/home-decor.html">
             Home Decor
         </a>
-
-        <a href="categorias/plantas-de-interior.html">
-            Plantas de interior
+<a href="categorias/plantas-de-interior.html">
+            Indoor Plants
         </a>
-
-        <a href="categorias/bricolaje-y-manualidades.html">
-            DIY &amp; Manualidades
+<a href="categorias/bricolaje-y-manualidades.html">
+            DIY &amp; Crafts
         </a>
-
-        <a href="categorias/organizacion-del-hogar.html">
-            Organizaci&oacute;n
+<a href="categorias/organizacion-del-hogar.html">
+            Organization
         </a>
-
-        <a href="categorias/limpieza-y-mantenimiento.html">
-            Limpieza y mantenimiento
+<a href="categorias/limpieza-y-mantenimiento.html">
+            Cleaning &amp; Maintenance
         </a>
-
-        <a href="categorias/vida-al-aire-libre.html">
-            Vida al aire libre
+<a href="categorias/vida-al-aire-libre.html">
+            Outdoor Living
         </a>
-
-        <a
-            href="articulos.html"
-            class="nav-dropdown-all"
-        >
-            Todos los art&iacute;culos
+<a class="nav-dropdown-all" href="articulos.html">
+            All Articles
         </a>
-
-    </div>
-
 </div>
-
-
-            <a href="index.html#destacados">
-                Destacados
+</div>
+<a href="index.html#destacados">
+                Featured
             </a>
-
-            <a href="index.html#sobre">
-                Sobre nosotros
+<a href="index.html#sobre">
+                About Us
             </a>
-
-            <a href="pages/contacto.html">
-                Contacto
+<a href="pages/contacto.html">
+                Contact
             </a>
-
-        </nav>
-
-    </div>
-
+</nav>
+</div>
 </header>
-
-
 <main>
-
 <section class="section">
-
-    <div class="container">
-
-        <span class="eyebrow">
-            CASA & JARDÍN
+<div class="container">
+<span class="eyebrow">
+            HOME &amp; GARDEN
         </span>
-
-        <h1>
-            Todos nuestros artículos
+<h1>
+            All Our Articles
         </h1>
-
-        <p class="category-description">
-            Explora nuestras guías, consejos e ideas sobre
-            jardinería, plantas, hogar y espacios exteriores.
-        </p>
-
-
-        <div
-            class="articles-grid"
-            id="all-articles"
-        ></div>
-
-    </div>
-
+<p class="category-description">Practical ideas, clear guidance, and useful inspiration for a more comfortable and functional home and garden.</p>
+<div class="articles-grid" id="all-articles"></div>
+</div>
 </section>
-
 </main>
-
-
 <footer class="site-footer">
-
-    <div class="container footer-bottom">
-
-        <p>
-            © 2026 Casa & Jardín. Todos los derechos reservados.
+<div class="container footer-bottom">
+<p>
+            © 2026 Home &amp; Garden. All rights reserved.
         </p>
-
-    </div>
-
+</div>
 </footer>
-
-
 <script src="js/articles.js"></script>
-
-
 <script src="js/articles.js"></script>
-
 <script>
 
 const container =
@@ -214,7 +131,7 @@ articles.forEach((article, index) => {
                 </p>
 
                 <a href="${article.url}">
-                    Leer artículo →
+                    Read Article →
                 </a>
 
             </div>
@@ -226,9 +143,6 @@ articles.forEach((article, index) => {
 });
 
 </script>
-
 <script src="js/script.js"></script>
 </body>
-
 </html>
-

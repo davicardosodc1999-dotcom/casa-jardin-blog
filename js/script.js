@@ -53,7 +53,7 @@ if (newsletterForm) {
         event.preventDefault();
 
         alert(
-            "Gracias por suscribirte a Casa & Jardín."
+            "Thank you for subscribing to Home & Garden."
         );
 
     });

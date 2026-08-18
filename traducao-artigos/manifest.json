@@ -1,0 +1,602 @@
+[
+  {
+    "position": 1,
+    "filename": "25-tecnicas-cuidar-jardin.html",
+    "title": "25 técnicas para cuidar de tu jardín y convertir esta habilidad en una nueva oportunidad profesional",
+    "words": 1831
+  },
+  {
+    "position": 2,
+    "filename": "arboles-pequenos-para-jardines-domesticos.html",
+    "title": "Árboles pequeños para jardines domésticos: cómo elegirlos y cuidarlos",
+    "words": 1943
+  },
+  {
+    "position": 3,
+    "filename": "como-ahorar-agua-en-el-jardin.html",
+    "title": "Cómo ahorrar agua en el jardín sin descuidar las plantas",
+    "words": 1894
+  },
+  {
+    "position": 4,
+    "filename": "como-ahorrar-energia-en-la-cocina.html",
+    "title": "Cómo ahorrar energía en la cocina con pequeños cambios diarios",
+    "words": 1897
+  },
+  {
+    "position": 5,
+    "filename": "como-aprovechar-el-alfeizar-de-las-ventanas.html",
+    "title": "Cómo aprovechar el alféizar de las ventanas y convertirlo en un espacio útil",
+    "words": 1854
+  },
+  {
+    "position": 6,
+    "filename": "como-aprovechar-espacios-pequenos-en-casa.html",
+    "title": "Cómo aprovechar los espacios pequeños de casa de forma inteligente",
+    "words": 1782
+  },
+  {
+    "position": 7,
+    "filename": "como-aprovechar-la-luz-natural-en-casa.html",
+    "title": "Cómo aprovechar mejor la luz natural en casa",
+    "words": 1776
+  },
+  {
+    "position": 8,
+    "filename": "como-aprovechar-las-esquinas-de-la-casa.html",
+    "title": "Cómo aprovechar las esquinas de la casa y convertirlas en espacios útiles",
+    "words": 1770
+  },
+  {
+    "position": 9,
+    "filename": "como-conectar-los-espacios-interiores-y-exteriores.html",
+    "title": "Cómo conectar los espacios interiores y exteriores de la casa",
+    "words": 1757
+  },
+  {
+    "position": 10,
+    "filename": "como-crear-rincon-lectura-casa.html",
+    "title": "Cómo crear un rincón de lectura cómodo y acogedor en casa",
+    "words": 1747
+  },
+  {
+    "position": 11,
+    "filename": "como-crear-un-camino-de-piedra-en-el-jardin.html",
+    "title": "Cómo crear un camino de piedra en el jardín paso a paso",
+    "words": 1511
+  },
+  {
+    "position": 12,
+    "filename": "como-crear-un-dormitorio-de-invitados-funcional.html",
+    "title": "Cómo crear un dormitorio de invitados funcional",
+    "words": 1379
+  },
+  {
+    "position": 13,
+    "filename": "como-crear-un-espacio-de-descanso-en-el-jardin.html",
+    "title": "Cómo crear un espacio de descanso agradable en el jardín",
+    "words": 1420
+  },
+  {
+    "position": 14,
+    "filename": "como-crear-un-hogar-acogedor.html",
+    "title": "Cómo crear un hogar acogedor sin gastar demasiado",
+    "words": 1502
+  },
+  {
+    "position": 15,
+    "filename": "como-crear-un-hogar-elegante-sin-gastar-una-fortuna.html",
+    "title": "Cómo crear un hogar elegante sin gastar una fortuna",
+    "words": 2998
+  },
+  {
+    "position": 16,
+    "filename": "como-crear-un-huerto-en-casa.html",
+    "title": "Cómo crear un huerto en casa",
+    "words": 2919
+  },
+  {
+    "position": 17,
+    "filename": "como-crear-un-jardin-amigable-para-abejas-y-mariposas.html",
+    "title": "Cómo crear un jardín amigable para abejas y mariposas",
+    "words": 2941
+  },
+  {
+    "position": 18,
+    "filename": "como-crear-un-jardin-bonito-desde-cero.html",
+    "title": "Cómo crear un jardín bonito desde cero",
+    "words": 2878
+  },
+  {
+    "position": 19,
+    "filename": "como-crear-un-jardin-de-bajo-mantenimiento.html",
+    "title": "Cómo crear un jardín de bajo mantenimiento",
+    "words": 1426
+  },
+  {
+    "position": 20,
+    "filename": "como-crear-un-jardin-nocturno.html",
+    "title": "Cómo crear un jardín nocturno",
+    "words": 2883
+  },
+  {
+    "position": 21,
+    "filename": "como-crear-un-jardin-vertical-en-casa.html",
+    "title": "Cómo crear un jardín vertical en casa y aprovechar mejor las paredes",
+    "words": 2017
+  },
+  {
+    "position": 22,
+    "filename": "como-crear-un-patio-acogedor.html",
+    "title": "Cómo crear un patio acogedor y funcional en casa",
+    "words": 1912
+  },
+  {
+    "position": 23,
+    "filename": "como-crear-un-recibidor-funcional.html",
+    "title": "Cómo crear un recibidor funcional y ordenado",
+    "words": 1859
+  },
+  {
+    "position": 24,
+    "filename": "como-crear-un-rincon-de-desayuno-en-casa.html",
+    "title": "Cómo crear un rincón de desayuno cómodo sin ocupar demasiado espacio",
+    "words": 1877
+  },
+  {
+    "position": 25,
+    "filename": "como-crear-un-rincon-verde-en-la-cocina.html",
+    "title": "Cómo crear un rincón verde en la cocina sin perder funcionalidad",
+    "words": 1858
+  },
+  {
+    "position": 26,
+    "filename": "como-crear-un-sistema-de-recoleccion-de-agua-de-lluvia.html",
+    "title": "Cómo crear un sistema de recolección de agua de lluvia",
+    "words": 1832
+  },
+  {
+    "position": 27,
+    "filename": "como-crear-una-zona-de-desayuno-acogedora-en-casa.html",
+    "title": "Cómo crear una zona de desayuno acogedora en casa",
+    "words": 1670
+  },
+  {
+    "position": 28,
+    "filename": "como-crear-una-zona-de-trabajo-en-casa.html",
+    "title": "Cómo crear una zona de trabajo en casa",
+    "words": 1617
+  },
+  {
+    "position": 29,
+    "filename": "como-crear-unborde-floral-en-el-jardin.html",
+    "title": "Cómo crear un borde floral en el jardín",
+    "words": 1603
+  },
+  {
+    "position": 30,
+    "filename": "como-cuidar-las-herramientas-de-jardin.html",
+    "title": "Cómo cuidar las herramientas de jardín",
+    "words": 1607
+  },
+  {
+    "position": 31,
+    "filename": "como-cuidar-muebles-de-madera-en-casa.html",
+    "title": "Cómo cuidar los muebles de madera y mantenerlos en buen estado",
+    "words": 1883
+  },
+  {
+    "position": 32,
+    "filename": "como-cuidar-plantas-en-invierno.html",
+    "title": "Cómo cuidar las plantas durante el invierno",
+    "words": 2226
+  },
+  {
+    "position": 33,
+    "filename": "como-cuidar-plantas-en-verano.html",
+    "title": "Cómo cuidar las plantas durante el verano",
+    "words": 1838
+  },
+  {
+    "position": 34,
+    "filename": "como-cuidar-superficies-de-piedra-natural.html",
+    "title": "Cómo cuidar superficies de piedra natural",
+    "words": 1868
+  },
+  {
+    "position": 35,
+    "filename": "como-da-personalidad-a-una-casa-con-pequenos-detalles.html",
+    "title": "Cómo dar personalidad a una casa con pequeños detalles",
+    "words": 1895
+  },
+  {
+    "position": 36,
+    "filename": "como-dar-un-nuevo-aire-al-dormitorio-sin-cambiar-los-muebles.html",
+    "title": "Cómo dar un nuevo aire al dormitorio sin cambiar los muebles",
+    "words": 1865
+  },
+  {
+    "position": 37,
+    "filename": "como-decorar-balcon-pequeno.html",
+    "title": "Cómo decorar un balcón pequeño y aprovechar cada centímetro",
+    "words": 1807
+  },
+  {
+    "position": 38,
+    "filename": "como-decorar-con-textiles-naturales-en-casa.html",
+    "title": "Cómo decorar con textiles naturales en casa",
+    "words": 1878
+  },
+  {
+    "position": 39,
+    "filename": "como-decorar-dormitorio-pequeno.html",
+    "title": "Cómo decorar un dormitorio pequeño para que se sienta más amplio",
+    "words": 1797
+  },
+  {
+    "position": 40,
+    "filename": "como-decorar-el-recibidor-con-personalidad.html",
+    "title": "Cómo decorar el recibidor con personalidad y mantenerlo funcional",
+    "words": 1775
+  },
+  {
+    "position": 41,
+    "filename": "como-decorar-paredes-sin-reformas.html",
+    "title": "Cómo decorar paredes sin reformas",
+    "words": 1922
+  },
+  {
+    "position": 42,
+    "filename": "como-decorar-sala-pequena.html",
+    "title": "Cómo decorar una sala pequeña y aprovechar mejor el espacio",
+    "words": 1823
+  },
+  {
+    "position": 43,
+    "filename": "como-decorar-terraza-pequena.html",
+    "title": "Cómo decorar una terraza pequeña y convertirla en un espacio acogedor",
+    "words": 1848
+  },
+  {
+    "position": 44,
+    "filename": "como-disenar-un-jardin-con-diferentes-alturas.html",
+    "title": "Cómo diseñar un jardín con diferentes alturas",
+    "words": 1835
+  },
+  {
+    "position": 45,
+    "filename": "como-elegir-alfombras-para-casa.html",
+    "title": "Cómo elegir alfombras para casa según cada espacio",
+    "words": 1872
+  },
+  {
+    "position": 46,
+    "filename": "como-elegir-colores-para-casa.html",
+    "title": "Cómo elegir colores para casa y crear una paleta equilibrada",
+    "words": 1990
+  },
+  {
+    "position": 47,
+    "filename": "como-elegir-cortinas-para-casa.html",
+    "title": "Cómo elegir cortinas para casa según luz, privacidad y estilo",
+    "words": 2024
+  },
+  {
+    "position": 48,
+    "filename": "como-elegir-iluminacion-para-comedor.html",
+    "title": "Cómo elegir la iluminación para el comedor",
+    "words": 2002
+  },
+  {
+    "position": 49,
+    "filename": "como-elegir-iluminacion-para-terraza.html",
+    "title": "Cómo elegir iluminación para una terraza cómoda y segura",
+    "words": 2046
+  },
+  {
+    "position": 50,
+    "filename": "como-elegir-la-mejor-ubicacion-para-un-rinco-de-lectura.html",
+    "title": "Cómo elegir la mejor ubicación para un rincón de lectura",
+    "words": 2036
+  },
+  {
+    "position": 51,
+    "filename": "como-elegir-macetas-para-plantas.html",
+    "title": "Cómo elegir las macetas adecuadas para cada tipo de planta",
+    "words": 1965
+  },
+  {
+    "position": 52,
+    "filename": "como-elegir-materiales-para-muebles-de-jardin.html",
+    "title": "Cómo elegir materiales para los muebles del jardín",
+    "words": 1965
+  },
+  {
+    "position": 53,
+    "filename": "como-elegir-materiales-sostenibles-para-el-hogar.html",
+    "title": "Cómo elegir materiales sostenibles para el hogar",
+    "words": 1984
+  },
+  {
+    "position": 54,
+    "filename": "como-elegir-muebles-para-casa.html",
+    "title": "Cómo elegir los muebles adecuados para cada espacio de la casa",
+    "words": 1988
+  },
+  {
+    "position": 55,
+    "filename": "como-elegir-pintura-para-exteriores-de-casa.html",
+    "title": "Cómo elegir pintura para exteriores de casa sin equivocarse",
+    "words": 1964
+  },
+  {
+    "position": 56,
+    "filename": "como-elegir-plantas-para-terrazas.html",
+    "title": "Cómo elegir plantas adecuadas para terrazas",
+    "words": 1995
+  },
+  {
+    "position": 57,
+    "filename": "como-elegir-plantas-segun-clima.html",
+    "title": "Cómo elegir plantas según el clima de tu región",
+    "words": 1972
+  },
+  {
+    "position": 58,
+    "filename": "como-elegir-sustrato-para-plantas-en-maceta.html",
+    "title": "Cómo elegir el sustrato adecuado para las plantas en maceta",
+    "words": 2069
+  },
+  {
+    "position": 59,
+    "filename": "como-evitar-plagas-en-el-jardin.html",
+    "title": "Cómo prevenir las plagas en el jardín y mantener tus plantas saludables",
+    "words": 2020
+  },
+  {
+    "position": 60,
+    "filename": "como-hacer-compost-en-casa.html",
+    "title": "Cómo hacer compost en casa: guía sencilla para principiantes",
+    "words": 2017
+  },
+  {
+    "position": 61,
+    "filename": "como-hacer-que-la-casa-parezca-mas-grande.html",
+    "title": "Cómo hacer que una casa pequeña parezca más grande",
+    "words": 1987
+  },
+  {
+    "position": 62,
+    "filename": "como-heducir-el-ruido-en-casa.html",
+    "title": "Cómo reducir el ruido en casa y mejorar el confort de las habitaciones",
+    "words": 1994
+  },
+  {
+    "position": 63,
+    "filename": "como-incorporar-elementos-artesanales-en-la-decoracion.html",
+    "title": "Cómo incorporar elementos artesanales en la decoración",
+    "words": 1997
+  },
+  {
+    "position": 64,
+    "filename": "como-integrar-plantas-decoracion.html",
+    "title": "Cómo integrar plantas en la decoración de casa sin recargar los espacios",
+    "words": 2006
+  },
+  {
+    "position": 65,
+    "filename": "como-limpiar-terraza-y-muebles-exterior.html",
+    "title": "Cómo limpiar y mantener una terraza y sus muebles",
+    "words": 1947
+  },
+  {
+    "position": 66,
+    "filename": "como-limpiar-y-cuidar-plantas-de-interior.html",
+    "title": "Cómo limpiar y cuidar correctamente las plantas de interior",
+    "words": 2150
+  },
+  {
+    "position": 67,
+    "filename": "como-mantener-el-jardin-bonito-con-poco-tiempo.html",
+    "title": "Cómo mantener el jardín bonito cuando tienes poco tiempo",
+    "words": 2168
+  },
+  {
+    "position": 68,
+    "filename": "como-manter-casa-ordenada-habitos.html",
+    "title": "Cómo mantener la casa ordenada todos los días con hábitos sencillos",
+    "words": 2153
+  },
+  {
+    "position": 69,
+    "filename": "como-mejorar-drenaje-jardin.html",
+    "title": "Cómo mejorar el drenaje del jardín para evitar el exceso de agua",
+    "words": 2093
+  },
+  {
+    "position": 70,
+    "filename": "como-mejorar-iluminacion-dormitorio.html",
+    "title": "Cómo mejorar la iluminación del dormitorio y crear un ambiente más agradable",
+    "words": 2033
+  },
+  {
+    "position": 71,
+    "filename": "como-mejorar-la-iluminacion-natural-de-casa.html",
+    "title": "Cómo mejorar la iluminación natural de casa",
+    "words": 2226
+  },
+  {
+    "position": 72,
+    "filename": "como-mejorar-la-privacidad-del-jardin.html",
+    "title": "Cómo mejorar la privacidad del jardín sin perder luz ni espacio",
+    "words": 2239
+  },
+  {
+    "position": 73,
+    "filename": "como-mejorar-la-ventilacion-de-casa.html",
+    "title": "Cómo mejorar la ventilación de casa de forma práctica",
+    "words": 2165
+  },
+  {
+    "position": 74,
+    "filename": "como-organizar-armario-aprovechar-espacio.html",
+    "title": "Cómo organizar un armario y aprovechar mejor el espacio",
+    "words": 2080
+  },
+  {
+    "position": 75,
+    "filename": "como-organizar-bano-pequeno.html",
+    "title": "Cómo organizar un baño pequeño y aprovechar cada centímetro",
+    "words": 1945
+  },
+  {
+    "position": 76,
+    "filename": "como-organizar-cocina-pequena.html",
+    "title": "Cómo organizar una cocina pequeña y aprovechar mejor cada espacio",
+    "words": 2094
+  },
+  {
+    "position": 77,
+    "filename": "como-organizar-el-garaje-en-casa.html",
+    "title": "Cómo organizar el garaje y aprovechar mejor el espacio",
+    "words": 2096
+  },
+  {
+    "position": 78,
+    "filename": "como-organizar-herramientas-jardin-en-casa.html",
+    "title": "Cómo organizar las herramientas de jardín en casa",
+    "words": 2000
+  },
+  {
+    "position": 79,
+    "filename": "como-organizar-lavadero-pequeno.html",
+    "title": "Cómo organizar un lavadero pequeño y aprovechar cada espacio",
+    "words": 1959
+  },
+  {
+    "position": 80,
+    "filename": "como-planificar-un-jardin-para-todas-las-estaciones.html",
+    "title": "Cómo planificar un jardín para todas las estaciones",
+    "words": 2022
+  },
+  {
+    "position": 81,
+    "filename": "como-podar-plantas-y-arbustos.html",
+    "title": "Cómo podar plantas y arbustos correctamente: guía para principiantes",
+    "words": 2047
+  },
+  {
+    "position": 82,
+    "filename": "como-preparar-casa-para-recibir-visitas.html",
+    "title": "Cómo preparar la casa para recibir visitas de forma sencilla",
+    "words": 2100
+  },
+  {
+    "position": 83,
+    "filename": "como-preparar-el-jardin-para-el-otono.html",
+    "title": "Cómo preparar el jardín para el otoño",
+    "words": 2025
+  },
+  {
+    "position": 84,
+    "filename": "como-preparar-el-suelo-para-plantar.html",
+    "title": "Cómo preparar el suelo para plantar y mejorar el crecimiento de tus plantas",
+    "words": 2046
+  },
+  {
+    "position": 85,
+    "filename": "como-preparar-jardin-para-la-primavera.html",
+    "title": "Cómo preparar el jardín para la primavera y empezar la temporada",
+    "words": 2003
+  },
+  {
+    "position": 86,
+    "filename": "como-preparar-la-casa-para-el-calor.html",
+    "title": "Cómo preparar la casa para los días de calor y mantenerla más confortable",
+    "words": 1979
+  },
+  {
+    "position": 87,
+    "filename": "como-preparar-semillas-para-la-proxima-temporada.html",
+    "title": "Cómo preparar y guardar semillas para la próxima temporada",
+    "words": 1929
+  },
+  {
+    "position": 88,
+    "filename": "como-proteger-muebles-de-exterior.html",
+    "title": "Cómo proteger los muebles de exterior y prolongar su vida útil",
+    "words": 1880
+  },
+  {
+    "position": 89,
+    "filename": "como-reducir-humedad-en-casa.html",
+    "title": "Cómo reducir la humedad en casa y mantener los ambientes más agradables",
+    "words": 1919
+  },
+  {
+    "position": 90,
+    "filename": "como-regar-las-plantas-correctamente.html",
+    "title": "Cómo regar las plantas correctamente: frecuencia, cantidad y errores que debes evitar",
+    "words": 1924
+  },
+  {
+    "position": 91,
+    "filename": "como-reutilizar-muebles-antiguos-en-casa.html",
+    "title": "Cómo reutilizar muebles antiguos en casa",
+    "words": 2195
+  },
+  {
+    "position": 92,
+    "filename": "errores-comunes-cuidar-plantas.html",
+    "title": "Errores comunes al cuidar plantas y cómo evitarlos",
+    "words": 2172
+  },
+  {
+    "position": 93,
+    "filename": "guia-para-elegir-mesas-de-comedor-para-casa.html",
+    "title": "Guía para elegir mesas de comedor para casa",
+    "words": 2167
+  },
+  {
+    "position": 94,
+    "filename": "ideas-para-aprovechar-el-espacio-bajo-las-escaleras.html",
+    "title": "Ideas para aprovechar el espacio bajo las escaleras",
+    "words": 2153
+  },
+  {
+    "position": 95,
+    "filename": "ideas-para-crear-sombra-natural-en-el-jardin.html",
+    "title": "Ideas para crear sombra natural en el jardín",
+    "words": 2152
+  },
+  {
+    "position": 96,
+    "filename": "las-mejores-plantas-para-decorar-interiores.html",
+    "title": "Las mejores plantas para decorar interiores",
+    "words": 2049
+  },
+  {
+    "position": 97,
+    "filename": "plantas-aromaticas-para-cultivar-en-casa.html",
+    "title": "Plantas aromáticas para cultivar en casa",
+    "words": 2143
+  },
+  {
+    "position": 98,
+    "filename": "plantas-interior-faciles-cuidar.html",
+    "title": "Plantas de interior fáciles de cuidar",
+    "words": 2027
+  },
+  {
+    "position": 99,
+    "filename": "plantas-que-ayudan-a-crear-un-ambiente-relajante.html",
+    "title": "Plantas que ayudan a crear un ambiente relajante",
+    "words": 2002
+  },
+  {
+    "position": 100,
+    "filename": "que-hacer-con-hojas-secas-del-jardin.html",
+    "title": "Qué hacer con las hojas secas del jardín",
+    "words": 1965
+  }
+]
